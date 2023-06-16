@@ -1,0 +1,335 @@
+.wrapper-imovel {
+    margin:0;
+    padding: 100px 0;
+    padding: 6.25rem 0;
+    @media (max-width: 767px) {
+        padding: 50px 0;
+        padding: 3.125rem 0;
+    }
+    .mobile-selector{
+        .wrapper-nav-menu .nav-menu .nav-menu-list-dropdown .btn-menu {
+            background-color: #16314b;
+        }
+    }
+    .carousel {
+        .carousel-control-next, .carousel-control-prev {
+            .carousel-control-next-icon, .carousel-control-prev-icon {
+                background-image: none;
+                border: 3px solid #fff;
+                border-radius: 50%;
+                box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.3);
+                display: block;
+                height: 50px;
+                width: 50px;
+                i {
+                    font-size: 40px;
+                    font-size: 2.5rem;
+                    text-shadow: 1px 1px 2px #000;
+                }
+            }
+            .carousel-control-next-icon {
+                i {
+                    margin-left: 4px;
+                    margin-left: .25rem;
+                }
+            }
+            .carousel-control-prev-icon {
+                i {
+                    margin-right: 4px;
+                    margin-right: .25rem;
+                }
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                background-color: #000;
+                &.a-eztec-premios-box-carousel-item {
+                    background-color: #FFF !important;
+                }
+                img {
+                    display: block;
+                }
+                .carousel-caption {
+                    left: 0;
+                    top: 0;
+                    .carousel-caption-center {
+                        width: 80%;
+                        margin-top: 100px;
+                        @media (max-width: 991px) {
+                            margin-top: 0;
+                        }
+                        span {
+                            display: block;
+                        }
+                        .btn {
+                            border-bottom: 1px solid $eztec-red-dark;
+                            font-size: 18px;
+                            font-size: 1.125rem;
+                            margin-top: 1.3vw;
+                            padding: 10px 50px;
+                            padding: .625rem 3.125rem;
+                        }
+                        .banner-slide-status {
+                            color: #fff;
+                            font-size: 1.2vw;
+                            letter-spacing: 1px;
+                            line-height: 25px;
+                            text-shadow: 1px 1px 2px #000;
+                            text-align: left;
+                            text-transform: uppercase;
+                        }
+                        .banner-slide-title {
+                            font-size: 3vw;
+                            line-height: 130%;
+                            text-shadow: 1px 1px 2px #000;
+                            text-align: left;
+                            margin: 0 0 7px;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                        }
+                        .detalhe-titulo {
+                            width: 94px;
+                            height: 3px;
+                            background-color: $eztec-red;
+                        }
+                        .banner-slide-subtitle {
+                            font-size: 1.5vw;
+                            font-weight: 100;
+                            line-height: 30px;
+                            text-shadow: 1px 1px 2px #000;
+                            text-align: left;
+                            margin-top: 13px;
+                        }
+                    }
+                    &.home-version {
+                        .carousel-caption-center {
+                            .carousel-caption-center-info-box {
+                                background-color: rgba(0, 0, 0, .5);
+                                padding: 0 10px;
+                                padding: 0 0.625rem;
+                                margin-top: 4px;
+                                margin-top: 0.25rem;
+                                width: fit-content;
+                                width: -moz-fit-content;
+                                width: -webkit-fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1700px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                padding: 8px 40px;
+                                padding: 0.5rem 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1600px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 50px;
+                    width: 50px;
+                    i {
+                        font-size: 40px;
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.1vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 2.8vw;
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.3vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1500px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 45px;
+                    width: 45px;
+                    i {
+                        font-size: 35px;
+                        font-size: 2.1875rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                font-size: 14px;
+                                font-size: 0.875rem;
+                                margin-top: 1vw;
+                                padding: 5px 30px;
+                                padding: 0.3125rem 1.875rem;
+                            }
+                            .banner-slide-title {
+                                line-height: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1400px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 35px;
+                    width: 35px;
+                    i {
+                        font-size: 27px;
+                        font-size: 1.6875rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-title {
+                                font-size: 2.2vw;
+                                line-height: 140%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.2vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1200px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                font-size: 12px;
+                                font-size: 0.75rem;
+                            }
+                            .banner-slide-title {
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                line-height: 160%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 991px) {
+            .carousel-control-next, .carousel-control-prev {
+                bottom: 0;
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.6vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 3.5vw;
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.5vw;
+                                line-height: 190%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.6vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 4vw;
+                                line-height: 190%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 2.2vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 575px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            width: 70%;
+                            .banner-slide-status {
+                                font-size: 4vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 6vw;
+                                line-height: 140%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 4vw;
+                                line-height: 140%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-barra-contato {
+        margin-top: 48px;
+        margin-top: 3rem;
+    }
+}
+
+#myTabGalerias, #TabVideos {
+    margin: 0 18%;
+    @media (max-width: 991px) {
+        margin: 0 9%;
+    }
+    @media (max-width: 767px) {
+        margin: 0;
+    }
+}
+
+/*-------------------------
+# Blocos
+-------------------------*/
+@import "caracteristicas";
+@import "contato";
+@import "obra";
+@import "regiao";
+@import "relacionados";
+@import "tour";
+@import "downloads";
+@import "galeria";

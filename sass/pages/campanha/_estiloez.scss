@@ -1,0 +1,861 @@
+.imovel-template-tpt-post-produto-pdc-home
+{
+	#oPrivallyApp{
+		#oPrivallyApp-OptionBar {
+			@media (max-width: 767px) {
+				bottom: 68px !important;
+			}
+		}
+		#oPrivallyApp-Bar{
+			@media (max-width: 767px) {
+				bottom: 68px !important;
+			}
+		}
+	}
+}
+.estiloez {
+	/*GERAL*/
+	background-color:#fff;
+	margin-top:0;
+	color:#19262a;
+	body {
+		padding-top: 151px;
+	}
+
+	.wrapper-popup {
+		width: 296px;
+		height: 320px;
+		position: fixed;
+		bottom: -500px;
+		background-color: #fff;
+		right: 13px;
+		z-index: 1;
+		border: 1px solid #000;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+		.header-popup {
+			background-color: #000;
+			color: #fff;
+			height: 50px;
+			border-top-right-radius: 6px;
+			border-top-left-radius: 6px;
+			padding: 10px 13px;
+			img {
+				margin-right: 10px;
+			}
+			.header-pop-txt {
+				font-size: 20px;
+				.close-pop {
+					cursor: pointer;
+				}
+			}
+		}
+		.chamadas-pop {
+			padding: 0 30px;
+			text-align: center;
+			.chamada-superior-pop {
+				font-size: 15px;
+				margin: 3px 0 0;
+				line-height: 17px;
+			}
+			.chamada-inferior-pop {
+				font-size: 16px;
+				line-height: 17px;
+				font-weight: 600;
+				margin: 0;
+			}
+			.divisor-chamadas-pop {
+				height: 1px;
+				background-color: #000;
+				margin: 6px 0;
+				border-top: 1px solid #757273;
+			}
+		}
+		.cta-pop {
+			text-align: center;
+			margin: 12px 0 0;
+		}
+		@media (max-width: 1134px) {
+			display:none;
+		}
+	}
+	#pop{
+		opacity:0;
+		animation: pop-anime 1s 1;
+		animation-delay: 10s;
+		animation-fill-mode: forwards;
+		@keyframes pop-anime {
+		    0%   {bottom: -400px;}
+		    100% {bottom: 0px;}
+		    from {
+			opacity: 0.3;
+			     }
+			to { 
+			opacity: 1;
+			 }
+		}
+	}
+
+
+	/*FOOTER*/
+	.wrapper-inner-footer-pdc {
+		padding: 70px 1% 60px;
+	}
+	.wrapper-geral-footer-pdc {
+		background-color: #19262a;
+		color: #fff;
+		padding-top: 50px;
+	}
+	.hr-divisor-footer-pdc {
+		height: 2px;
+		background-color: #2d3f45;
+	}
+	.address-footer-pdc {
+		color: #d5af83;
+		font-size: 17px;
+	}
+	.logo-ez-footer-pdc img {
+		width: 179px;
+	}
+	.footer-pdc-content {
+		width: 100%;
+	}
+	.text-footer-pdc {
+		text-align: right;
+	}
+	.sociais-footer-pdc {
+		text-align: center;
+		padding-top: 16px;
+	}
+	.sociais-footer-pdc img {
+		margin: 0 6px;
+	}
+	.copyright-footer-pdc {
+		font-size: 14px;
+	}
+	.footer-ri p {
+		color: #647277;
+		text-align: center;
+		font-size: 11px;
+		margin-top: 40px;
+	}
+	@media (max-width: 991px) {
+		.text-footer-pdc {
+			text-align: center;
+			margin-top: 20px;
+		}
+		.logo-ez-footer-pdc {
+			text-align: center;
+		}
+	}
+	@media (max-width: 575px) {
+		.address-footer-pdc {
+			font-size: 14px;
+		}
+		.copyright-footer-pdc {
+			font-size: 13px;
+		}
+		.logo-ez-footer-pdc {
+			margin-bottom: 10px;
+		}
+	}
+
+
+
+
+
+	/* Video Preview */
+	.wrapper-geral-h-videopreview {
+		background-color: #000;
+	}
+	.wrapper-videopreview {
+		position: relative;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.video-preview-txt-container {
+		z-index: 1;
+		text-align: center;
+		position: absolute;
+	}
+	.video-review-video-container {
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		margin-bottom: -7px;
+	}
+	.vidpreview-cta {
+		background-color: rgba(0,0,0,0.3);
+		border: 1px solid;
+		border-radius: 8px;
+		font-size: 13px;
+		letter-spacing: 3px;
+		padding: 7px 19px;
+		cursor: pointer;
+	}
+	.videopreview-video {
+		width: 100%;
+	}
+	.wrapper-inner-h-videopreview {
+		max-width: 2560px;
+		margin: 0 auto;
+	}
+	.wrapper-video-header-pdc{
+		position:relative;
+	}
+	.video-header-pdc {
+		width: 100%;
+		top: 0;
+		z-index: 0;
+	}
+	.wrapper-video-header-pdc img {
+		z-index: 1;
+		margin: 0 auto;
+		cursor:pointer;
+	}
+	.modal-content-video-pdc {
+		background-color: #000;
+	}
+	.wrapper-inner-pdc{
+		max-width:1920px;
+		width:100%;
+		margin:0 auto;
+	}
+	.video-preview-txt-container {
+		color: #fff;
+		text-shadow: 1px 1px rgba(0,0,0,0.7);
+		padding: 0 4%;
+	}
+	.videopreview-titulo {
+		font-size: 22px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		width: 232px;
+		margin: 0 auto;
+	}
+	.videopreview-titulo.pdc-home {
+		width: 271px;
+	}
+	.videopreview-titulo.pdc-regiao {
+		width: 89px;
+	}
+	.videopreview-titulo.pdc-servicos {
+		width: 115px;
+	}
+	.videopreview-titulo.pdc-obra {
+		width: 286px;
+	}
+	.videopreview-titulo.pdc-aptos {
+		width: 188px; 
+	}
+	.videopreview-titulo.pdc-complexo {
+		width: 129px;
+	}
+	.videopreview-titulo.pdc-lazer {
+		width: 77px;
+	}
+	.videopreview-titulo.pdc-projeto {
+		width: 104px;
+	}
+	.videopreview-titulo.pdc-videos {
+		width: 93px;
+	}
+	.videopreview-titulo.pdc-skygardens {
+		width: 167px;
+	}
+	.videopreview-titulo.pdc-starchitects {
+		width: 163px;
+	}
+	.detalhe-titulo-pdc {
+		width: 58px;
+		height: 3px;
+		background-color: #dab180;
+		margin: 6px 0 24px;
+	}
+	.videpreview-chamada {
+		font-size: 29px;
+		margin-bottom: 34px;
+		padding: 0;
+	}
+	@media (max-width: 991px) {
+		.videpreview-chamada {
+			font-size: 19px;
+			margin-bottom: 20px;
+		}
+	}
+	@media (max-width: 767px) {
+		.videopreview-titulo {
+			font-size: 12px;
+		}
+		.videpreview-chamada {
+			font-size: 14px;
+			margin-bottom: 4px;
+		}
+		.videopreview-titulo.pdc-home {
+			width: 142px;
+		}
+		.vidpreview-cta {
+			font-size: 11px;
+			padding: 5px 11px;
+		}
+		.play-pdc-banner {
+			width: 36px;
+			height: 36px;
+		}
+		.detalhe-titulo-pdc {
+			display: none;
+		}
+	}
+
+
+	/*HEADER*/
+	/*Menu de Interação*/
+	.menu-interacao.menu-interacao-pdc {
+		background-color: #223136;
+	}
+	.menu-interacao-pdc .mi-item {
+		background-color: #223136;
+	}
+	.menu-interacao-pdc .mi-item.mi-item-corretor {
+		background-color: #dab180;
+		color: #19262a;
+	}
+	.wrapper-inner-menu-interacao-pdc {
+		max-width: 1530px;
+		margin: 0 auto;
+	}
+	.menu-interacao-pdc .mi-item.mi-item-corretor b {
+		color: #19262a;
+		font-weight: 600;
+		font-size: 14px;
+		padding-left: 12px;
+	}
+	.menu-interacao .mi-item.mi-item-whats {
+		padding-right: 5px;
+	}
+	.menu-interacao-pdc .mi-item b {
+		font-weight: 300;
+	}
+
+
+	/*Menu*/
+	.wrapper-geral-menu-pdc {
+		background-color: #19262a;
+	}
+	.logo-pdc-img {
+		width: 296px;
+		margin: 16px 0 0 16px;
+		height: 67px;
+	}
+	.wrapper-inner-menu-pdc {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 1530px;
+		height: 101px;
+		position: relative;
+		background-color: #af9175;
+	}
+	.wrapper-geral-menu-pdc {
+		background-color: #af9175;
+		margin-top: 51px;
+	}
+	.logo-pdc {
+		position: absolute;
+		top: -30px;
+		left: 15px;
+		width: 233px;
+		height: 106px;
+	}
+	.wrapper-menu-pdc {
+		margin: 0 1% 0 24%;
+	}
+	.navbar-pdc {
+		height: 100px;
+	}
+	.navbar-nav-pdc {
+		width: 100%;
+	}
+	.nav-link.nav-link-pdc {
+		margin: 0 19px;
+	}
+	.nav-link-pdc, .nav-link-pdc:hover, .nav-link-pdc:focus, .nav-link-pdc:visited, .nav-link-pdc:active, .menu-pdc-dropdown-item, .menu-pdc-dropdown-item:hover, .menu-pdc-dropdown-item:focus, .menu-pdc-dropdown-item:active, .menu-pdc-dropdown-item:visited {
+		color: #fff;
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.dropdown-menu-pdc, .menu-pdc-dropdown-item, .menu-pdc-dropdown-item:hover, .menu-pdc-dropdown-item:focus, .menu-pdc-dropdown-item:active, .menu-pdc-dropdown-item:visited {
+		background-color: #223136;
+	}
+	.logo-pdc-mobile{
+		display:none;
+	}
+	.btn-corretor-mobile {
+		display:none;
+		position: absolute;
+		background-color: #dab180;
+	}
+	@media (max-width: 991px) {
+		.wrapper-menu-pdc {
+			margin: 0 0 0 22%;
+		}
+		.nav-link.nav-link-pdc {
+			margin: 0 16px;
+		}
+		.mi-item.mi-item-corretor {
+			display: none;
+		}
+		.nav-link.nav-link-pdc {
+			margin: 0 6px;
+		}
+	}
+	@media (max-width: 767px) {
+		.logo-pdc{
+			display:none;
+		}
+		.navbar-nav-pdc {
+			width: 100%;
+			margin-top: 78px;
+		}
+		.logo-pdc-img {
+		  width: 200px;
+		  height: 45px;
+		}
+		.wrapper-geral-menu-pdc {
+			margin-top: 0;
+		}
+		body {
+			padding-top: 77px;
+		}
+		.wrapper-menu-pdc {
+			margin: 0;
+		}
+		.navbar-pdc .navbar-toggler {
+			position: absolute;
+			top: 17px;
+			right: 3px;
+		}
+		.navbar-toggler-icon-detalhe {
+			width: 25px;
+			height: 2px;
+			background-color: #fff;
+			margin: 6px 0;
+		}
+		.navbar-nav-pdc {
+			background-color: #223136;
+		}
+		.navbar-pdc {
+			padding: 0;
+			height: auto;
+		}
+		.logo-pdc-mobile{
+			display:block;
+		}
+		.wrapper-inner-menu-pdc {
+			height: 78px;
+		}
+		.logo-pdc-mobile {
+			position: absolute;
+			width: 92px;
+			left: 18px;
+			top: 7px;
+		}
+		.logo-pdc-img-mobile {
+			width: 92px;
+		}
+		.btn-corretor-mobile {
+			display:block;
+			position: absolute;
+			background-color: #dab180;
+		}
+		.btn-corretor-mobile a, .btn-corretor-mobile a:hover, .btn-corretor-mobile a:visited, .btn-corretor-mobile a:focus, .btn-corretor-mobile a:active {
+			color: #19262a;
+			text-decoration: none;
+		}
+		.btn-corretor-mobile {
+			right: 63px;
+			padding: 6px 14px;
+			top: 22px;
+			font-size: 11px;
+		}
+	}
+	@media (max-width: 575px) {
+		.logo-pdc-img {
+		  width: 100px;
+		  margin: 26px 0 0 10px;
+		  height: 23px;
+		}
+	}
+	@media (max-width: 375px) {
+		.logo-pdc-mobile {
+			width: 69px;
+			left: 14px;
+			top: 12px;
+		}
+		.logo-pdc-img-mobile {
+			width: 69px;
+		}
+		.btn-corretor-mobile {
+			right: 63px;
+			padding: 6px 5px;
+			top: 22px;
+			font-size: 11px;
+		}
+	}
+
+
+
+	/*CONTATO*/
+	.wrapper-geral-pdc-contato {
+		background-color: #19262a;
+		color: #fff;
+		padding-top: 70px;
+	}
+	.wrapper-geral-pdc-contato input, .wrapper-geral-pdc-contato textarea {
+		background-color: #2d3f45;
+		border: 0;
+		border-radius: 9px !important;
+	}
+	.pdc-pbrigatorios{
+		margin: 0;
+	}
+	.titulo-section-pdc {
+		font-size: 21px;
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+	.titulo-detalhe-pdc {
+		width: 58px;
+		height: 3px;
+		background-color: #dab180;
+		margin: 13px 0 13px;
+	}
+	.contato-pdc-subtitulo {
+		font-size: 32px;
+	}
+	.wrapper-inner.wrapper-contato-body.contato-form {
+		max-width: 840px;
+	}
+	.wrapper-geral-pdc-contato #btnEnviar {
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/parque-da-cidade/home/seta-enviar.png);
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: 0;
+		height: 130px;
+		width: 211px;
+		text-align: center;
+		background-position: 115px 0;
+		margin-top: 30px;
+	}
+	.wrapper-geral-pdc-contato .contato-content-footer {
+		text-align: center;
+	}
+	.pdc-pbrigatorios {
+		margin: 0;
+		text-align: left;
+		color: #647277;
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-pdc-contato {
+			padding: 70px 3% 0;
+		}
+		.contato-pdc-subtitulo {
+			font-size: 15px;
+		}
+		.wrapper-geral-pdc-contato label {
+			font-size: 12px;
+		}
+	}
+
+
+	/* Título de Seções */
+	.section-content-title {
+		font-weight: 400;
+		font-size: 40px;
+		color: #19262a;
+	}
+	@media (max-width: 767px) {
+		.section-content-title {
+			font-size:26px;
+		}
+	}
+
+	
+
+	.wrapper-geral-apresentacao {
+		background-color: #413f3c;
+		color: #fff;
+		padding-top: 60px;
+	}
+	.estilo-ez-subtitulo {
+		font-size: 34px;
+		font-weight: bold;
+		color: #af9175;
+		margin-bottom: 15px;
+	}
+	.estilo-ez-desc {
+		font-size: 24px;
+		margin-bottom: 25px;
+	}
+	.diferencial-txt {
+		margin: 3px 0 0 13px;
+	}
+	.diferencial-item {
+		margin-bottom: 10px;
+	}
+	.contaudo-box {
+		padding-top: 40px;
+	}
+	.diferencial-img {
+		width: 37px;
+		height: 31px;
+	}
+	@media (max-width: 1100px) {
+		.contaudo-box {
+			padding-top: 0;
+		}
+	}
+	@media (max-width: 991px) {
+		.contaudo-box {
+			text-align: center;
+		}
+		.diferenciais-box {
+			max-width: 470px;
+			margin: 0 auto;
+		}
+		.contaudo-box {
+			padding-bottom: 30px;
+		}
+	}
+	@media (max-width: 767px) {
+		.diferencial-txt {
+			font-size: 13px;
+			text-align: left;
+		}
+		.estilo-ez-subtitulo {
+			font-size: 24px;
+			line-height: 1.1;
+		}
+		.estilo-ez-titulo {
+			font-size: 22px;
+		}
+		.estilo-ez-desc {
+		  font-size: 18px;
+		}
+	}
+
+
+
+	.wrapper-geral-imoveis {
+		background-color: #d5d9db;
+		padding: 60px 0;
+	}
+	.imoveis-btn.btn.btn-primary {
+		padding: 10px 50px;
+	}
+	.imoveis-titulo {
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.imoveis-subtitulo {
+		font-size: 30px;
+		font-weight: 200;
+		margin-bottom: 50px;
+	}
+	.wrap-imovel-item {
+		text-transform: uppercase;
+		max-width: 400px;
+		margin: 0 auto 45px;
+	}
+	.imovel-thumb {
+		position: relative;
+	}
+	.imovel-status {
+		background-color: rgba(175,145,117,0.9);
+		color: #fff;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		padding: 5px;
+		font-size: 13px;
+	}
+	.imovel-box-info {
+		background-color: rgba(19,27,32,0.7);
+		position: absolute;
+		width: 100%;
+		color: #fff;
+		bottom: 0;
+		padding: 18px;
+	}
+	.imovel-titulo {
+		font-size: 23px;
+	}
+	.imovel-cta {
+		padding: 6px 20px;
+		background-color: #fff;
+		width: 100%;
+		display: block;
+		color: #000 !important;
+		font-weight: bold;
+	}
+	.whats-cta {
+		background-color: #2d2b29;
+		padding: 5px 20px;
+		font-size: 18px;
+		a{
+			color:#fff !important;
+			text-decoration: none;
+		}
+	}
+	.cta-whats-txt {
+		padding-top: 5px;
+	}
+	@media (max-width: 767px) {
+		.imoveis-titulo {
+			font-size: 20px;
+		}
+		.imoveis-subtitulo {
+			font-size: 18px;
+		}
+	}
+
+
+	.wrapper-inner-estilo{
+		max-width: 850px;
+		margin: 0 auto;
+	}
+	.estiloez-titulo {
+		font-size: 25px;
+	}
+	.divisor-estiloez {
+		width: 92px;
+		height: 3px;
+		background-color: #af9175;
+		margin: 6px 0 15px;
+	}
+	.estiloez-subtitulo {
+		font-size: 30px;
+		color: #b19276;
+		font-weight: 200;
+		margin-bottom: 40px;
+	}
+	@media (max-width: 767px) {
+		.estiloez-titulo {
+			font-size: 20px;
+		}
+		.estiloez-subtitulo {
+			font-size: 18px;
+		}
+	}
+
+
+
+	.wrapper-geral-centrais {
+		background-color: #413f3c;
+		color: #fff;
+		padding: 80px 0;
+	}
+	.central-item {
+		margin-bottom: 40px;
+		font-size: 21px;
+	}
+	.central-endereco {
+		color: #b19276;
+	}
+	.central-titulo {
+		font-weight: 200;
+	}
+	@media (max-width: 767px) {
+		.central-item {
+			font-size: 16px;
+		}
+	}
+
+
+
+
+
+	.wrapper-geral-contato {
+		background-color: #2d2b29;
+		color: #fff;
+		padding: 80px 0;
+	}
+	
+		
+}
+
+.estiloez-imoveis{
+	.wrapper-geral-imoveis {
+		background-color: #d5d9db;
+		padding: 0;
+		.imoveis-info-imoveis{
+			background-color: #413f3c;
+			color: #fff;
+			padding: 40px 0;
+			margin-bottom: 40px;
+			.imoveis-titulo {
+				font-size: 25px;
+				font-weight: 200;
+				margin-bottom: 20px;
+			}
+			.select-estiloez {
+				width: 100%;
+				background-color: #2d2b29;
+				border: 0;
+				padding: 9px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	#NoResults {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

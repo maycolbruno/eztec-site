@@ -1,0 +1,370 @@
+/**
+ * @class Peterson
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * @TODO Trocar nomenclatura da classe peterson e não esquecer de trocar as chamadas dos metodos também
+ * Ex: peterson.submitForm, peterson.postChat, etc...
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ */
+var peterson = {
+    submitForm: (data, target, promisse) => {
+        var form = $("form[data-target='"+target+"']");
+        var btnEnviar = form.find('#btnEnviar');
+        var originalHtml = btnEnviar.html();
+        btnEnviar.html('<i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i> Enviando');
+        btnEnviar.attr('disabled', true);
+        // setTimeout(
+        //     function(){
+        //         btnEnviar.html(originalHtml);
+        //         btnEnviar.attr('disabled', false);
+        //         form.trigger("reset");
+        //         swal(
+        //             'Mensagem enviada com sucesso!',
+        //             '',
+        //             'success'
+        //         )
+        //     }, 3000
+        // )
+        $.ajax({
+            type: "POST",
+            url: peterson.getEnv() + "?t=" + target,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            data: JSON.stringify(data),
+            success: function (response) {
+                promisse.resolve(response.msg);
+                form.trigger("reset");
+            },
+            error: function (response) {
+                promisse.resolve(response.msg);
+            },
+            complete: function () {
+                btnEnviar.html(originalHtml);
+                btnEnviar.attr('disabled', false);
+            }
+        });
+        return false;
+    },
+    setFormMask: () => {
+        $("input[alt='fone']").inputmask({
+            mask: ["9999-9999", "99999-9999", {
+                clearMaskOnLostFocus: true
+            }],
+            keepStatic: true,
+        });
+        $("input[alt='ddd']").inputmask({
+            mask: ["99"],
+            keepStatic: true,
+        });
+        $("input[alt='cep']").inputmask({
+            mask: ["99.999-999"],
+            keepStatic: true,
+            clearMaskOnLostFocus: true
+        });
+        $("input[alt='cpf']").inputmask({
+            mask: ["999.999.99-99"],
+            keepStatic: true,
+            clearMaskOnLostFocus: true
+        });
+        $("input[alt='money']").inputmask(
+            'decimal', {
+                'alias': 'numeric',
+                'groupSeparator': '.',
+                'autoGroup': true,
+                'digits': 2,
+                'radixPoint': ",",
+                'digitsOptional': false,
+                'allowMinus': false,
+                'prefix': 'R$ ',
+                'placeholder': ''
+            })
+        $("input[alt='metric']").inputmask(
+            'decimal', {
+                'alias': 'numeric',
+                'groupSeparator': '.',
+                'autoGroup': true,
+                'digits': 2,
+                'radixPoint': ",",
+                'digitsOptional': false,
+                'allowMinus': false,
+                'placeholder': ''
+            })
+    },
+    getBase64: (file) => {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onerror = function (error) {
+            console.log('Error: ', error);
+        };
+        return reader.result;
+    },
+    validate: (form) => {
+        //Regras do formulario
+        $.validator.addMethod("valueNotEquals", (value, element, arg) => {
+            return arg !== value;
+        }, "Selecione um valor da lista");
+        $.validator.addMethod("fileExtension", (value, element) => {
+            var allowed = ["pdf", "doc", "docx", "odt", "ods", "docm", "wpd", "wps"]
+            if (allowed.indexOf((value.split(".")[1])) == -1) return false;
+            return true;
+        }, "Selecione um arquivo com a extensão válida");
+        $.validator.addMethod("cpf", (value, element) => {
+            value = jQuery.trim(value);
+            value = value.replace('.', '');
+            value = value.replace('.', '');
+            cpf = value.replace('-', '');
+            while (cpf.length < 11) cpf = "0" + cpf;
+            var expReg = /^0+$|^1+$|^2+$|^3+$|^4+$|^5+$|^6+$|^7+$|^8+$|^9+$/;
+            var retorno = true;
+            if (cpf.match(expReg)) retorno = false;
+            return retorno;
+        }, "Informe um CPF válido");
+        form.validate({
+            rules: {
+                nome: {
+                    required: true,
+                    minlength: 2
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                ddd: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 2,
+                    digits: true
+                },
+                fone: {
+                    required: true,
+                    minlength: 8,
+                    maxlength: 10,
+                },
+                ddd_celular: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 2,
+                    digits: true
+                },
+                celular: {
+                    required: true,
+                    minlength: 8,
+                    maxlength: 10,
+                },
+                idEmpreendimento: {
+                    required: true,
+                    valueNotEquals: "default"
+                },
+                endTerreno: {
+                    required: true,
+                    minlength: 4
+                },
+                siglaEstado: {
+                    required: true,
+                    valueNotEquals: "default"
+                },
+                cidade: {
+                    required: true,
+                    minlength: 3
+                },
+                numIptu: {
+                    required: true,
+                    minlength: 3
+                },
+                preco: {
+                    required: true
+                },
+                areaTerreno: {
+                    required: true
+                },
+                proposta: {
+                    required: true
+                },
+                cpf: {
+                    cpf: true,
+                    required: true
+                },
+                curriculo: {
+                    required: true,
+                    fileExtension: true
+                },
+                mensagem: {
+                    required: true
+                }
+            },
+            messages: {
+                nome: {
+                    required: "Informe seu nome",
+                    minlength: "Informe ao menos 2 caracteres"
+                },
+                email: {
+                    required: "Por favor informe um email válido",
+                    minlength: "Por favor informe um email válido",
+                    email: "Por favor informe um email válido"
+                },
+                ddd: {
+                    required: "Informe um número de DDD",
+                    minlength: "Informe ao menos 2 numeros no DDD",
+                    digits: "Informe somente números"
+                },
+                fone: {
+                    required: "Informe um número de telefone",
+                    minlength: "Informe ao menos 8 numeros no Telefone",
+                    digits: "Informe somente números"
+                },
+                ddd_celular: {
+                    required: "Informe um número de DDD",
+                    minlength: "Informe ao menos 2 numeros no DDD",
+                    digits: "Informe somente números"
+                },
+                celular: {
+                    required: "Informe um número de telefone",
+                    minlength: "Informe ao menos 8 numeros no Telefone",
+                    digits: "Informe somente números"
+                },
+                idEmpreendimento: {
+                    required: "Selecione um empreendimento na lista",
+                    valueNotEquals: "Selecione um empreendimento na lista"
+                },
+                endTerreno: {
+                    required: "Informe seu endereço",
+                    minlength: "Informe um endereço válido"
+                },
+                siglaEstado: {
+                    required: "Selecione um Estado na lista",
+                    valueNotEquals: "Selecione um Estado na lista"
+                },
+                cidade: {
+                    required: "Informe sua cidade",
+                    minlength: "Informe uma cidade válida"
+                },
+                numIptu: {
+                    required: "Informe seu numero do IPTU",
+                    minlength: "Informe um numero válido"
+                },
+                preco: {
+                    required: "Informe o preco do m² do terreno",
+                    number: "Somente numeros"
+                },
+                areaTerreno: {
+                    required: "Informe a area do terreno",
+                    number: "Somente numeros",
+                },
+                proposta: {
+                    required: "Informe uma proposta"
+                },
+                cpf: {
+                    required: "Informe um CPF",
+                    cpf: 'CPF inválido'
+                },
+                cep: {
+                    cep: 'Informe um CEP válido'
+                },
+                curriculo: {
+                    required: "Envie seu curriculo (doc, docx, pdf, odt, ods)",
+                    extension: "Envie uma extensão de arquivo válida (doc, docx, pdf)"
+                },
+                mensagem: {
+                    required: "Informe uma mensagem"
+                }
+            },
+            submitHandler: (form) => {
+                if ($(form).attr("id") == "chatForm") {
+                    peterson.postChat();
+                } else {
+                    var obj = {};
+                    var target = $(form).data("target");
+                    $(form).find("input[type!=button], textarea, select").each(function () {
+                        obj[$(this).attr("name")] = $(this).val();
+                        if ($(this).attr("type") == "checkbox") obj[$(this).attr("name")] = $(this).prop("checked");
+                        if ($(this).attr("type") == "radio") obj[$(this).attr("name")] = $("input[name='" + $(this).attr("name") + "']:checked").val();
+                        if ($(this).attr("type") == "file" && $(this).val() != "") {
+                            var file = $(this)[0].files[0];
+                            obj[$(this).attr("name") + "Base64"] = peterson.getBase64(file);
+                        }
+                    });
+                    obj.pagina = window.document.location.href;
+                    var _q = $.Deferred();
+                    $.when(_q).done(function (response) {
+                        swal(
+                            response,
+                            '',
+                            'success'
+                        )
+                    });
+                    peterson.submitForm(obj, target, _q);
+                    return false;
+                }
+            }
+        });
+    },
+    /**
+     * postChat
+     * Para enviar um post para um dominio diferente em uma nova janela foi necessario criar
+     * um form virtual, abrir uma nova janela e submeter o form virtual com o target para
+     * janela criada com um de seus campos preenchidos (virtual_obj) com o json que deve ser
+     * lido na pagina de destino.
+     * Essa medida foi necessaria somente para validação, uma vez que quando estiver em produção
+     * o site estará no mesmo dominio do chat, e passar um json para uma nova janela nessa caso
+     * poderia, e é recomendado, ser feito com window.localstorage.
+     */
+    postChat: () => {
+        peterson.openPopUpCenter("Chat Eztec", 581, 581);
+        var obj = {};
+        var $chatForm = $("#chatForm");
+        $chatForm.find("input[type!='button'], select").each(function () {
+            obj[$(this).attr("name")] = $(this).val();
+            if ($(this).attr("type") == "checkbox") obj[$(this).attr("name")] = $(this).prop("checked");
+            if ($(this).prop("tagName") === "SELECT") {
+                obj.nomeEmpreendimento = $(this).find("option:selected").text();
+                obj[$(this).attr("name")] = $(this).val();
+            }
+        });
+        var $vForm = $("<form>");
+        $vForm
+            .attr("target", "Chat Eztec")
+            .attr("action", $chatForm.attr("action")).attr("method", "POST");
+        $vForm.append($("<input>")
+            .attr("name", "virtual_obj").val(JSON.stringify(obj)));
+        $("body").append($vForm);
+        $vForm.submit();
+        $vForm.remove();
+    },
+    openPopUpCenter: (title, w, h) => {
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+        var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open("about:blank", title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        if (window.focus) {
+            newWindow.focus();
+        }
+    },
+    getEnv: () => {
+        var WSROOT = "";
+        var domain = window.document.location.toString();
+        if (domain.indexOf("www.") != -1)
+            domain = domain.split("www.")[1];
+        switch (domain) {
+            case "ezprd.eztec.com.br":
+                WSROOT = "http://sgc.eztec.com.br/CrmWeb/portalWS.do"
+                break;
+            case "eztec.com.br":
+                WSROOT = "http://www.eztec.com.br/CrmWeb/portalWS.do"
+                break;
+            default:
+                WSROOT = "http://sgc.eztec.com.br/CrmWeb/portalWS.do"
+        }
+        return WSROOT;
+    }
+};
+
+$('document').ready(function () {
+    $("form[data-isintegrado]").each(function () {
+        peterson.setFormMask();
+        var validator = peterson.validate($(this));
+    });
+});

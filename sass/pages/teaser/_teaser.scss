@@ -1,0 +1,38 @@
+.wrapper-header-teaser{
+	.wrapper-banner{
+		.banner{
+			.banner-text-content{
+				h1{
+					text-shadow: 1px 1px 2px black;
+				}
+			}
+		}
+	}
+}
+
+.wrapper-teaser {
+	padding: 70px 0;
+	text-align: center;
+	.title-teaser {
+		font-size: 30px;
+		color: #ef3e5e;
+	}
+	.desc-teaser {
+		padding: 0 5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper-header-teaser{
+		.wrapper-banner{
+			.banner{
+				.banner-text-content{
+					h1{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+

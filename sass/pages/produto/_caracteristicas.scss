@@ -1,0 +1,347 @@
+.wrapper-caracteristicas {
+    .wrapper-imovel-caracteristicas {
+        .imovel-caracteristicas {
+            .caracteristicas-intro {
+                margin: 85px 0;
+                @media (max-width: 991px) {
+                    margin: 40px 0;
+                }
+                .wrap-imovel-logo{
+                    img{
+                        max-width:250px;
+                        width:250px;
+                    }
+                    @media (max-width: 991px) {
+                        margin-bottom: 21px;
+                    }
+                }
+                .wrap-imovel-box{
+                    .imovel-box-de-produto {
+                        font-size: 33px;
+                        font-weight: 400;
+                        margin-bottom: 8px;
+                        @media (max-width: 767px) {
+                            font-size: 18px;
+                        }
+                    }
+                    .detalhe-titulo {
+                        width: 94px;
+                        height: 3px;
+                        background-color: $eztec-red;
+                    }
+                    .imovel-txt-entrega {
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin-top: 13px;
+                        color: $eztec-red;
+                        @media (max-width: 767px) {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            .imovel-caracteristicas-info {
+                .caracteristicas-title {
+                    color: $eztec-red;
+                    h1 {
+                        margin: 0;
+                        font-size: 22px;
+                        font-size: 1.375rem;
+                        font-weight: 600;
+                    }
+                    .status-entrega-carac {
+                        font-size: 16px;
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+                .caracteristicas-description {
+                    div {
+                        padding: 30px 0;
+                        padding: 1.875rem 0;
+                        p {
+                            margin: 0;
+                        }
+                    }
+                    .caracteristicas-description-text {
+                        border-bottom: 1px solid #d5d2d2;
+                        color: #686a6c;
+                        text-align: center;
+                    }
+                    .caracteristicas-description-img {
+                        border-bottom: 1px solid #d5d2d2;
+                        width: 100%;
+                    }
+                    .caracteristicas-description-info {
+                        border-bottom: 1px solid #d5d2d2;
+                        font-weight: 700;
+                        text-align: center;
+                        width: 100%;
+                        display: block !important;
+                        .preco {
+                            font-size: 24px;
+                            span{
+                                font-size:11px;
+                            }
+                        }
+                        .texto-legal {
+                            font-size:10px;
+                            line-height: 10px !important;
+                        } 
+                    }
+                }
+            }
+            .imovel-caracteristicas-fachada {
+                padding: 60px 0 0;
+                .info-caracteristicas-vertical {
+                    min-height: 840px;
+                    @media (max-width: 991px) {
+                        min-height: auto;
+                    }
+                }
+                .img-fachada-vertical {
+                    min-height: 840px;
+                    @media (max-width: 991px) {
+                        min-height: auto;
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                .imovel-caracteristicas-fachada-vertical {
+                    .diferenciais-vertical {
+                        .diferencial-item {
+                            margin-bottom: 50px;
+                            margin-bottom: 3.125rem;
+                            img {
+                                margin-right: 20px;
+                                margin-right: 1.25rem;
+                            }
+                            p {
+                                font-weight: 600;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .imovel-caracteristicas-fachada-vertical-button {
+                        background-color: $eztec-red;
+                        color: #fff;
+                        padding: 28px;
+                        padding: 1.75rem;
+                        text-decoration: none;
+                        img {
+                            margin-right: 20px;
+                            margin-right: 1.25rem;
+                        }
+                    }
+                    .img-fachada-vertical {
+                        @media (max-width: 991px) {
+                            margin-bottom: 50px;
+                            margin-bottom: 3.125rem;
+                        }
+                        @media (min-width: 1088px) {
+                            display: flex;
+                        }
+                        @media (max-width: 1087px) {
+                            display: block;
+                        }
+                        @media (max-width: 990px) {
+                            display: flex;
+                        }
+                        @media (max-width: 575px) {
+                            .img-fluid {
+                                max-width: 80%;
+                            }
+                        }
+                    }
+                }
+                .imovel-caracteristicas-fachada-horizontal {
+                    .imovel-caracteristicas-fachada-horizontal-button {
+                        background-color: $eztec-red;
+                        color: #fff;
+                        padding: 28px;
+                        padding: 1.75rem;
+                        text-decoration: none;
+                        &:first-child {
+                            // Medium devices (tablets, 576px and up)
+                            @media (min-width: 576px) {
+                                border-right: 1px solid #af151b;
+                            }
+                            // Small devices (landscape phones, 575px and down)
+                            @media (max-width: 575px) {
+                                border-bottom: 1px solid #af151b;
+                            }
+                        }
+                        img {
+                            margin-right: 20px;
+                            margin-right: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .wrapper-imovel-caracteristicas {
+            .imovel-caracteristicas {
+                .imovel-caracteristicas-fachada {
+                    .imovel-caracteristicas-fachada-vertical {
+                        .diferenciais-vertical {
+                            .diferencial-item {
+                                img {
+                                    width: 30px;
+                                    width: 1.875rem;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    font-size: 0.875rem;
+                                }
+                            }
+                        }
+                    }
+                    .imovel-caracteristicas-fachada-horizontal {
+                        .diferenciais-horizontal {
+                            .diferencial-item {
+                                img {
+                                    width: 30px;
+                                    width: 1.875rem;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    font-size: 0.875rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .wrapper-ficha-tecnica {
+            .ficha-tecnica {
+                .ficha-tecnica-accordion {
+                    .ficha-tecnica-box {
+                        .ficha-tecnica-titulo {
+                            font-size: 22px;
+                        }
+                        .ficha-tecnica-instrucoes {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wrapper-ficha-tecnica {
+    background-color: #1c2939;
+    .ficha-tecnica {
+        color: #fff;
+        .ficha-tecnica-accordion {
+            color: #fff;
+            padding: 30px 0;
+            padding: 1.875rem 0;
+            text-decoration: none;
+            .ficha-tecnica-box {
+                .ficha-tecnica-titulo {
+                    font-size: 28px;
+                    display: block;
+                    width: 250px;
+                    @media (max-width: 767px) {
+                        font-size:22px;
+                    }
+                }
+                .ficha-tecnica-instrucoes {
+                    font-size: 14px;
+                    font-size: 0.875rem;
+                    font-weight: 300;
+                }
+                .wrapper-header-ficha {
+                    display: flex;
+                    max-width: 320px;
+                    margin: 0 auto;
+                    .ficha-tecnica-btn {
+                        background-color: transparent;
+                        border: 0;
+                        margin: 0 0 0 20px;
+                        padding: 0 0 11px 10px;
+                        padding: 10px;
+                        padding: 0.625rem;
+                        .ficha-tecnica-btn-open {
+                            display: none;
+                            font-size: 40px;
+                            font-size: 2.5rem;
+                            height: 36px;
+                            width: 36px;
+                        }
+                        .ficha-tecnica-btn-close {
+                            display: flex;
+                            height: 36px;
+                            width: 36px;
+                            span {
+                                margin-top: -8px;
+                                margin-top: -0.5rem;
+                                font-size: 36px;
+                                font-size: 2.25rem;
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                }
+                .detalhe-titulo{
+                    background-color:$eztec-red;
+                    width:94px;
+                    height:3px;
+                }
+            }
+            &.collapsed {
+                .ficha-tecnica-box {
+                    .ficha-tecnica-btn {
+                        .ficha-tecnica-btn-open {
+                            display: flex !important;
+                        }
+                        .ficha-tecnica-btn-close {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+        .ficha-tecnica-dados {
+            border-top: 1px solid #d5d2d2;
+            padding: 30px 0;
+            padding: 1.875rem 0;
+        }
+    }
+}
+
+.wrapper-caracteristicas-diferenciais {
+    background-color: #1c2939;
+}
+.diferenciais-horizontal {
+    padding: 30px 0;
+    .diferencial-item {
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 40px;
+        @media (max-width: 991px) {
+            font-size: 17px;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 25px;
+        }
+        img {
+            margin-right: 20px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+.caracteristicas-chamada {
+    padding-bottom: 10px;
+    .section-content-title{
+        line-height: 1.2;
+        margin: 20px 0 10px;
+    }
+}

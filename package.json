@@ -1,0 +1,22 @@
+{
+  "name": "eztec",
+  "version": "1.0.0",
+  "description": "Eztec",
+  "main": "index.php",
+  "keywords": [
+    "sass",
+    "grunt",
+    "undescores",
+    "wordpress"
+  ],
+  "author": "Hebert Hoffman",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-notify": "^0.4.5"
+  }
+}

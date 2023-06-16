@@ -1,0 +1,167 @@
+.wrapper-contato {
+    background-color: #f0f0f0;
+    padding: 0;
+    padding-top: 51px;
+    padding-top: 3.1875rem;
+    .wrapper-contato-body {
+        // Small devices (landscape phones, 576px and down)
+        @media (max-width: 767px) {
+            padding: 60px 20px;
+            padding: 3.75rem 1.25rem;
+        }
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) {
+            padding: 60px 100px;
+            padding: 3.75rem 6.25rem;
+        }
+        .wrapper-contato-content {
+            -webkit-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -webkit-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            padding: 60px 9vw;
+            padding: 3.75rem 9vw;
+            .contato-content-header {
+                padding-bottom: 45px;
+                padding-bottom: 2.8125rem;
+                .contato-content-title {
+                    .contato-content-title-icon {
+                        margin-right: 26px;
+                        margin-right: 1.625rem;
+                    }
+                    .contato-content-title-text {
+                        font-size: 37px;
+                        font-size: 2.3125rem;
+                        font-weight: bold;
+                        margin: 15px 0;
+                        margin: 0.9375rem 0;
+                    }
+                }
+                .contato-content-title-separator {
+                    border-bottom: 10px solid #1c1c1c;
+                    width: 36px;
+                    width: 2.25rem;
+                }
+            }
+            .contato-content-body {
+                color: #6a5b5b;
+                border-bottom: 1px solid #d5d3d3;
+                border-top: 1px solid #d5d3d3;
+                padding: 20px 0 10px 0;
+                padding: 1.25rem 0 0.625rem 0;
+                .allow-exceed-text {
+                    width: 200%;
+                }
+                .custom-file {
+                    background-color: #e6e6e6;
+                    border: 1px solid #d5d3d3;
+                    border-radius: 0;
+                    color: #1c1c1c;
+                    height: 46px !important;
+                    padding: 6px 12px;
+                    padding: .375rem .75rem;
+                    position: relative;
+                }
+                .custom-file-control {
+                    background-color: transparent;
+                    border: none;
+                    color: #939393;
+                    height: 100%;
+                    padding: 9.2px 12px;
+                    padding: .575rem .75rem;
+                }
+                .custom-file-input {
+                    cursor: pointer;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .contato-content-footer {
+                padding-top: 20px;
+                padding-top: 1.25rem;
+                .text-message-required {
+                    color: $eztec-red;
+                    margin-top: -8px;
+                    margin-top: -0.5rem;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .wrapper-contato-body {
+            .wrapper-contato-content {
+                .contato-content-header {
+                    .contato-content-title {
+                        .contato-content-title-text {
+                            font-size: 26px;
+                            font-size: 1.625rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wrapper-barra-contato {
+    .barra-contato-intro {
+        color: #161c22;
+        font-size: 15px;
+        font-size: 0.9375rem;
+        font-weight: 600;
+    }
+    .barra-contato-list {
+        .barra-contato-list-item {
+            a {
+                background-color: transparent;
+                border: 2px solid $eztec-red;
+                color: $eztec-red;
+                font-size: 18px;
+                font-size: 1.125rem;
+                font-weight: 700;
+                padding: 10px 0;
+                padding: 0.625rem 0;
+                height: 100%;
+                width: 100%;
+                text-decoration: none;
+                &:hover {
+                    background-color: #fff;
+                }
+                img {
+                    margin-right: 20px;
+                    margin-right: 1.25rem;
+                    height: 25px;
+                    height: 1.5625rem;
+                    width: 25px;
+                    width: 1.5625rem;
+                }
+                @media (max-width: 890px) {
+                    font-size: 12px;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+}
+
+.reverse {
+    .wrapper-barra-contato {
+        .barra-contato-intro {
+            color: #fff;
+        }
+        .barra-contato-list {
+            .barra-contato-list-item {
+                a {
+                    color: #fff;
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

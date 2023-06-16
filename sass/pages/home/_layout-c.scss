@@ -1,0 +1,277 @@
+.wrapper-home-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    .section-itens {
+        &.section-c-itens {
+            .section-item-box {
+                height: 410px;
+                position: relative;
+                .section-item-selo {
+                    position: absolute;
+                    left: 35px;
+                    left: 2.1875rem;
+                    top: 25px;
+                    top: 1.5625rem;
+                    .section-item-selo-marker {
+                        border-top: 100px solid #fff;
+                        border-right: 150px solid transparent;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 0;
+                        width: 0;
+                    }
+                    .section-item-selo-text {
+                        position: absolute;
+                        left: 10px;
+                        left: 0.625rem;
+                        top: 12px;
+                        top: 0.75rem;
+                        font-size: 22px;
+                        font-size: 1.375rem;
+                        font-weight: 700;
+                    }
+                }
+                .section-item-caption-box {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    .section-item-caption {
+                        color: #fff;
+                        bottom: 0%;
+                        max-width: 60%;
+                        .section-item-status {
+                            color: #fff;
+                            font-size: 19px;
+                            font-size: 1.1875rem;
+                            font-style: italic;
+                            line-height: 25px;
+                            line-height: 1.5625rem;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                        .section-item-chamada {
+                            font-size: 44px;
+                            font-size: 2.75rem;
+                            line-height: 55px;
+                            line-height: 3.4375rem;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                        .section-item-text {
+                            font-size: 23px;
+                            font-size: 1.4375rem;
+                            font-weight: 100;
+                            line-height: 30px;
+                            line-height: 1.875rem;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 1400px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 360px;
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            max-width: 70%;
+                            .section-item-chamada {
+                                font-size: 40px;
+                                font-size: 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 320px;
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            max-width: 80%;
+                            .section-item-status {
+                                font-size: 18px;
+                                font-size: 1.125rem;
+                            }
+                            .section-item-chamada {
+                                font-size: 36px;
+                                font-size: 2.25rem;
+                            }
+                            .section-item-text {
+                                font-size: 20px;
+                                font-size: 1.25rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 320px;
+                    .section-item-selo {
+                        .section-item-selo-marker {
+                            border-top: 70px solid #fff;
+                            border-right: 120px solid transparent;
+                        }
+                        .section-item-selo-text {
+                            font-size: 14px;
+                            font-size: 0.875rem;
+                        }
+                    }
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            max-width: 80%;
+                            .section-item-status {
+                                font-size: 16px;
+                                font-size: 1rem;
+                            }
+                            .section-item-chamada {
+                                font-size: 30px;
+                                font-size: 1.875rem;
+                                line-height: 40px;
+                                line-height: 2.5rem;
+                            }
+                            .section-item-text {
+                                font-size: 18px;
+                                font-size: 1.125rem;
+                            }
+                            .section-call-to-action {
+                                a {
+                                    font-size: 16px;
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 280px;
+                }
+            }
+        }
+    }
+    @media (max-width: 660px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            .section-item-chamada {
+                                font-size: 26px;
+                                font-size: 1.625rem;
+                            }
+                            .section-call-to-action {
+                                a {
+                                    font-size: 14px;
+                                    font-size: 0.875rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 240px;
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            max-width: 90%;
+                            .section-item-status {
+                                font-size: 14px;
+                                font-size: 0.875rem;
+                            }
+                            .section-item-chamada {
+                                font-size: 24px;
+                                font-size: 1.5rem;
+                                line-height: 30px;
+                                line-height: 1.875rem;
+                            }
+                            .section-item-text {
+                                font-size: 16px;
+                                font-size: 1rem;
+                            }
+                            .section-call-to-action {
+                                a {
+                                    font-size: 12px;
+                                    font-size: 0.75rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 460px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            .section-item-chamada {
+                                font-size: 18px;
+                                font-size: 1.125rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 320px) {
+        .section-itens {
+            &.section-c-itens {
+                .section-item-box {
+                    height: 220px;
+                    .section-item-caption-box {
+                        .section-item-caption {
+                            .section-item-status {
+                                font-size: 12px;
+                                font-size: 0.75rem;
+                            }
+                            .section-item-chamada {
+                                font-size: 14px;
+                                font-size: 0.875rem;
+                                line-height: 20px;
+                                line-height: 1.25rem;
+                            }
+                            .section-item-text {
+                                font-size: 14px;
+                                font-size: 0.875rem;
+                            }
+                            .section-call-to-action {
+                                a {
+                                    font-size: 10px;
+                                    font-size: 0.625rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

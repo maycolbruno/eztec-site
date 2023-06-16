@@ -1,0 +1,54 @@
+.wrapper-a-eztec-videos {
+    background-color: #1c2939;
+    .a-eztec-videos {
+        .a-eztec-videos-text {
+            color: #fff;
+            padding: 0 100px;
+            padding: 0 6.25rem;
+            .a-eztec-videos-text-titulo {
+                font-size: 23px;
+                font-size: 1.4375rem;
+                font-weight: 600;
+            }
+            .a-eztec-videos-text-desc {
+                font-size: 14px;
+                font-size: 0.875rem;
+                margin: 25px 0;
+                margin: 1.5625rem 0;
+                text-align: center;
+                @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                    width: 100%;
+                }
+            }
+        }
+        .videa-eztec-videos-video {
+            .modal {
+                .modal-dialog {
+                    .modal-content {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 900px) {
+        .a-eztec-videos {
+            .a-eztec-videos-text {
+                padding: 20px 30px;
+                padding: 1.25rem 1.875rem;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .a-eztec-videos {
+            .a-eztec-videos-text {
+                padding: 30px 100px;
+                padding: 1.875rem 6.25rem;
+            }
+            .videa-eztec-videos-video {
+                padding-bottom: 30px;
+                padding-bottom: 1.875rem;
+            }
+        }
+    }
+}

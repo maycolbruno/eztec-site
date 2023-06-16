@@ -1,0 +1,232 @@
+.wrapper-a-eztec-contato {
+    .a-eztec-contato {
+        .a-eztec-contato-intro {
+            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
+            .a-eztec-contato-intro-item {
+                border-bottom: 1px solid #d7d7d7;
+                border-top: 1px solid #d7d7d7;
+                padding-bottom: 50px;
+                padding-bottom: 3.125rem;
+                padding-top: 50px;
+                padding-top: 3.125rem;
+                &:first-child {
+                    border-right: 1px solid #d7d7d7;
+                    padding-right: 100px;
+                    padding-right: 6.25rem;
+                }
+            }
+            .a-eztec-contato-intro-text {
+                .a-eztec-contato-intro-text-desc {
+                    color: $eztec-red;
+                    font-size: 22px;
+                    font-size: 1.375rem;
+                    font-weight: 600;
+                    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                        width: 100%;
+                    }
+                }
+                .a-eztec-contato-intro-text-instrucoes {
+                    color: #fff;
+                    font-size: 14px;
+                    font-size: 0.875rem;
+                    margin-top: 10px;
+                    margin-top: 0.625rem;
+                }
+            }
+            .a-eztec-contato-intro-contatos {
+                .a-eztec-contato-intro-contatos-img {
+                    padding-right: 20px;
+                    padding-right: 1.25rem;
+                }
+                .a-eztec-contato-intro-contatos-tels {
+                    &:last-child {
+                        padding-left: 30px;
+                        padding-left: 1.875rem;
+                    }
+                    .a-eztec-contato-intro-contatos-tels-text {
+                        color: $eztec-red;
+                        font-size: 13px;
+                        font-size: 0.8125rem;
+                        font-weight: 600;
+                        margin-bottom: -4px;
+                    }
+                    .a-eztec-contato-intro-contatos-tels-tel {
+                        color: #fff;
+                        font-size: 29px;
+                        font-size: 1.8125rem;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .a-eztec-contato-box {
+            .a-eztec-contato-box-item {
+                display: flex;
+                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
+                text-decoration: none;
+                &:hover {
+                    .a-eztec-contato-box-item-icon {
+                        background-color: $eztec-red;
+                    }
+                }
+                .a-eztec-contato-box-item-icon {
+                    background-color: #70767d;
+                    margin-right: 5px;
+                    margin-right: 0.3125rem;
+                    height: 130px;
+                    width: 173px;
+                }
+                .a-eztec-contato-box-item-info {
+                    background-color: #e1e1e1;
+                    height: 130px;
+                    padding: 33px 30px;
+                    padding: 2.0625rem 1.875rem;
+                    width: 100%;
+                    .a-eztec-contato-box-item-info-titulo {
+                        color: #1c1c1c;
+                        font-size: 16px;
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                    .a-eztec-contato-box-item-info-desc {
+                        color: #686a6c;
+                        font-size: 13px;
+                        font-size: 0.8125rem;
+                        line-height: 20px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .a-eztec-contato {
+            .a-eztec-contato-intro {
+                .a-eztec-contato-intro-item {
+                    padding-bottom: 40px;
+                    padding-bottom: 2.5rem;
+                    padding-top: 40px;
+                    padding-top: 2.5rem;
+                    &:first-child {
+                        padding-right: 50px;
+                        padding-right: 3.125rem;
+                    }
+                }
+                .a-eztec-contato-intro-text {
+                    .a-eztec-contato-intro-text-desc {
+                        font-size: 18px;
+                        font-size: 1.125rem;
+                    }
+                    .a-eztec-contato-intro-text-instrucoes {
+                        font-size: 13px;
+                        font-size: 0.8125rem;
+                    }
+                }
+                .a-eztec-contato-intro-contatos {
+                    .a-eztec-contato-intro-contatos-tels {
+                        .a-eztec-contato-intro-contatos-tels-text {
+                            font-size: 11px;
+                            font-size: 0.6875rem;
+                        }
+                        .a-eztec-contato-intro-contatos-tels-tel {
+                            font-size: 20px;
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+            .a-eztec-contato-box {
+                .a-eztec-contato-box-item {
+                    .a-eztec-contato-box-item-icon {
+                        height: 120px;
+                        width: 150px;
+                    }
+                    .a-eztec-contato-box-item-info {
+                        height: 120px;
+                        padding: 12px;
+                        padding: 0.75rem;
+                        .a-eztec-contato-box-item-info-titulo {
+                            font-size: 14px;
+                            font-size: 0.875rem;
+                        }
+                        .a-eztec-contato-box-item-info-desc {
+                            font-size: 12px;
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .a-eztec-contato {
+            .a-eztec-contato-intro {
+                .a-eztec-contato-intro-item {
+                    &:first-child {
+                        border-bottom: none;
+                        border-right: none;
+                    }
+                }
+            }
+            .a-eztec-contato-box {
+                .a-eztec-contato-box-item {
+                    .a-eztec-contato-box-item-info {
+                        padding: 28px 30px;
+                        padding: 1.75rem 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 600px) {
+        .a-eztec-contato {
+            .a-eztec-contato-box {
+                .a-eztec-contato-box-item {
+                    .a-eztec-contato-box-item-info {
+                        padding: 18px 30px;
+                        padding: 1.125rem 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 420px) {
+        .a-eztec-contato {
+            .a-eztec-contato-intro {
+                .a-eztec-contato-intro-contatos {
+                    .a-eztec-contato-intro-contatos-tels {
+                        .a-eztec-contato-intro-contatos-tels-text {
+                            font-size: 9px;
+                            font-size: 0.5625rem;
+                        }
+                        .a-eztec-contato-intro-contatos-tels-tel {
+                            font-size: 18px;
+                            font-size: 1.125rem;
+                        }
+                    }
+                }
+            }
+            .a-eztec-contato-box {
+                .a-eztec-contato-box-item {
+                    .a-eztec-contato-box-item-info {
+                        padding: 15px;
+                        padding: 0.9375rem;
+                        .a-eztec-contato-box-item-info-titulo {
+                            font-size: 12px;
+                            font-size: 0.75rem;
+                        }
+                        .a-eztec-contato-box-item-info-desc {
+                            font-size: 10px;
+                            font-size: 0.625rem;
+                            line-height: 14px;
+                            line-height: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

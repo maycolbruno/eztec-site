@@ -1,0 +1,53 @@
+/*!
+Theme Name: Eztec
+Theme URI: http://underscores.me/
+Author: Hebert Hoffman
+Author URI: http://www.eztec.com.br
+Description: Eztec
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eztec
+
+Eztec is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+/*--------------------------------------------------------------
+# Variáveis
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/header/header";
+@import "layout/lightbox";
+@import "layout/lightslider";
+@import "layout/lightgallery";
+@import "layout/footer/footer";
+@import "layout/geral";
+@import "layout/popup";
+
+/*--------------------------------------------------------------
+# Páginas
+--------------------------------------------------------------*/
+@import "pages/a-eztec/a-eztec";
+@import "pages/campanha/campanha";
+@import "pages/campanha/estiloez";
+@import "pages/contato/contato";
+@import "pages/home/home";
+@import "pages/imoveis/imoveis";
+@import "pages/politica-privacidade/politica-privacidade";
+@import "pages/politica-privacidade/unsubscribe";
+@import "pages/produto/produto";
+@import "pages/produto/pdc";
+@import "pages/produto/infinity";
+@import "pages/produto/uniquegreen";
+@import "pages/videos/videos";
+@import "pages/teaser/teaser";
+@import "pages/blog/blog";

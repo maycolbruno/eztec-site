@@ -1,0 +1,38 @@
+.wrapper-downloads {
+	padding: 20px 0 0;
+	color: #fff;
+	background-color: #131b20;
+	.wrapper-downloads-body{
+		.row{
+			padding-bottom: 20px;
+			@media (max-width: 767px) {
+				.btn-item-download {
+					text-align: center;
+					margin-top: 7px;
+				}
+			}
+		}
+		.desc-item-download{
+			text-align:right;
+			p {
+				font-size: 21px;
+				font-weight: 100;
+				margin:0;
+				line-height: 41px;
+				@media (max-width: 767px) {
+					text-align:center;
+				}
+			}
+		}
+		.btn-item-download{
+			.btn.btn-alert {
+				color: #fff;
+				padding: 7px 45px;
+				background-color: $eztec-red;
+				img{
+					margin-right:13px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,93 @@
+.wrapper-a-eztec-qualidade {
+    .a-eztec-qualidade {
+        .a-eztec-qualidade-item {
+            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
+            .section-content-header {
+                .section-content-pre-title {
+                    font-size: 22px;
+                    font-size: 1.375rem;
+                }
+            }
+            .a-eztec-qualidade-item-desc {
+                color: #fff;
+                font-size: 14px;
+                font-size: 0.875rem;
+            }
+        }
+        .a-eztec-qualidade-wrap-qtdes-box {
+            padding: 50px;
+            padding: 3.125rem;
+            &:nth-child(1) {
+                background-color: rgba(58,65,73,.95);
+            }
+            &:nth-child(2) {
+                background-color: rgba(73,80,88,.95);
+            }
+            &:nth-child(3) {
+                background-color: rgba(111,120,129,.95);
+            }
+            .a-eztec-qualidade-wrap-qtdes-item {
+                color: #fff;
+                -webkit-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+                -webkit-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+                -moz-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+                -moz-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+                box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+                box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+                height: 100%;
+                width: 100%;
+                .a-eztec-qualidade-wrap-qtdes-item-qtda {
+                    font-size: 50px;
+                    font-size: 3.125rem;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                .a-eztec-qualidade-wrap-qtdes-item-text {
+                    color: #ff6b6a;
+                    font-size: 20px;
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                }
+                .a-eztec-qualidade-wrap-qtdes-item-call {
+                    .a-eztec-qualidade-wrap-qtdes-item-call-titulo {
+                        font-size: 23px;
+                        font-size: 1.4375rem;
+                        font-weight: 600;
+                        line-height: 24px;
+                        line-height: 1.5rem;
+                        margin-bottom: 10px;
+                        margin-bottom: 0.625rem;
+                    }
+                    .a-eztec-qualidade-wrap-qtdes-item-call-desc {
+                        font-size: 14px;
+                        font-size: 0.875rem;
+                        font-weight: 100;
+                    }
+                }
+            }
+            &:last-child {
+                .a-eztec-qualidade-wrap-qtdes-item {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        padding-bottom: 0 !important;
+        .a-eztec-qualidade {
+            .a-eztec-qualidade-wrap-qtdes-bg {
+                background-image: none !important;
+                .a-eztec-qualidade-wrap-qtdes-box {
+                    .a-eztec-qualidade-wrap-qtdes-item {
+                        .a-eztec-qualidade-wrap-qtdes-item-call {
+                            &:last-child {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

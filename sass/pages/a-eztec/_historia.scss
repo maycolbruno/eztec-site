@@ -1,0 +1,74 @@
+.wrapper-a-eztec-historia {
+    .a-eztec-historia {
+        .a-eztec-historia-content {
+            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
+            .a-eztec-historia-content-desc {
+                color: #fff;
+                font-size: 14px;
+                font-size: 0.875rem;
+            }
+        }
+        .a-eztec-historia-content-valores {
+            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
+            .a-eztec-historia-content-valores-titulo {
+                color: #1c1c1c;
+                font-weight: 700;
+            }
+            .a-eztec-historia-content-valores-item {
+                background-color: #1c2939;
+                font-size: 13px;
+                font-size: 0.8125rem;
+                font-weight: 700;
+                height: 180px;
+                height: 11.25rem;
+                margin-bottom: 30px;
+                margin-bottom: 1.875rem;
+                padding: 0 10px;
+                padding: 0 0.625rem;
+                text-align: center;
+                img {
+                    margin-bottom: 10px;
+                    margin-bottom: 0.625rem;
+                }
+                @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .a-eztec-historia-dados {
+        background-position: center;
+        padding: 50px 0;
+        padding: 3.125rem 0;
+        .a-eztec-historia-dados-box {
+            .a-eztec-historia-dados-box-item {
+                background-color: rgba(215,215,215,.2);
+                padding: 20px 0;
+                padding: 1.25rem 0;
+                .a-eztec-historia-dados-box-item-qtde {
+                    color: #fff;
+                    font-size: 40px;
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+                .a-eztec-historia-dados-box-item-divisor {
+                    border-top: 4px solid #fff;
+                    margin: 10px 0;
+                    margin: 0.625rem 0;
+                    width: 30px;
+                    width: 1.875rem;
+                }
+                .a-eztec-historia-dados-box-item-titulo {
+                    color: #ff6b6a;
+                    font-size: 16px;
+                    font-size: 1rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

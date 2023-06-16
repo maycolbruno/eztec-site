@@ -1,0 +1,156 @@
+.wrapper-premios {
+    padding: 180px 0 !important;
+    padding: 11.25rem 0 !important;
+    .a-eztec-premios {
+        .a-eztec-premios-box {
+            background-color: #1c2939;
+            padding: 80px 196px;
+            padding: 5rem 12.25rem;
+            -webkit-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -webkit-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            .a-eztec-premios-box-header {
+                margin-bottom: 50px;
+                margin-bottom: 3.125rem;
+                .a-eztec-premios-box-header-titulo {
+                    h2 {
+                        color: #fff;
+                        font-size: 38px;
+                        font-size: 2.375rem;
+                        font-weight: 600;
+                    }
+                }
+                .a-eztec-premios-box-header-desc {
+                    color: #fff;
+                    font-size: 14px;
+                    font-size: 0.875rem;
+                    margin-top: 22px;
+                    margin-top: 1.375rem;
+                }
+            }
+            .a-eztec-premios-box-carousel {
+                margin-top: 50px;
+                margin-top: 3.125rem;
+                .carousel-control {
+                    width: initial;
+                    z-index: 2;
+                    .carousel-control-icon {
+                        border-color: #949494;
+                        box-shadow: none;
+                        i {
+                            color: transparent;
+                            font-size: 30px;
+                            font-size: 1.875rem;
+                            text-shadow: none;
+                        }
+                    }
+                }
+                .carousel-inner {
+                    height: auto;
+                    width: 70%;
+                    .a-eztec-premios-box-carousel-item {
+                        .a-eztec-premios-box-carousel-item-header {
+                            padding-bottom: 60px;
+                            padding-bottom: 3.75rem;
+                        }
+                        .a-eztec-premios-box-carousel-item-content {
+                            color: #fff;
+                            font-size: 14px;
+                            font-size: 0.875rem;
+                            .a-eztec-premios-box-carousel-item-content-fonte {
+                                font-style: italic;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 1280px) {
+        .a-eztec-premios {
+            .a-eztec-premios-box {
+                .a-eztec-premios-box-header {
+                    .a-eztec-premios-box-header-desc {
+                        font-size: 12px;
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 1199px) {
+        .a-eztec-premios {
+            .a-eztec-premios-box {
+                .a-eztec-premios-box-header {
+                    .a-eztec-premios-box-header-titulo {
+                        text-align: center;
+                    }
+                    .a-eztec-premios-box-header-desc {
+                        font-size: 14px;
+                        font-size: 0.875rem;
+                        text-align: center !important;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        padding: 70px 0 !important;
+        padding: 4.375rem 0 !important;
+        .a-eztec-premios {
+            .a-eztec-premios-box {
+                padding: 80px 4%;
+                padding: 5rem 3rem;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .a-eztec-premios {
+            .a-eztec-premios-box {
+                .a-eztec-premios-box-carousel {
+                    .carousel-control {
+                        .carousel-control-icon {
+                            i {
+                                font-size: 16px;
+                                font-size: 1rem;
+                                margin-top: 1px;
+                                margin-top: 0.0625rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .a-eztec-premios {
+            .a-eztec-premios-box {
+                .a-eztec-premios-box-carousel {
+                    .carousel-control {
+                        .carousel-control-icon {
+                            i {
+                                font-size: 16px;
+                                font-size: 1rem;
+                                margin-top: 1px;
+                                margin-top: 0.0625rem;
+                            }
+                        }
+                    }
+                    .carousel-inner {
+                        .a-eztec-premios-box-carousel-item {
+                            .a-eztec-premios-box-carousel-item-content {
+                                .a-eztec-premios-box-carousel-item-content-desc {
+                                    font-size: 13px;
+                                    font-size: 0.8125rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

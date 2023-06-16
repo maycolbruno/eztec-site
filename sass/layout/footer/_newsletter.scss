@@ -1,0 +1,130 @@
+.section-footer-newsletter {
+ 
+    background-color: #131b20;
+    color: #fff;
+    padding: 95px 15px;
+    background-image: url(https://www.eztec.com.br/wp-content/uploads/componentes/geral/bg-red-newsletter.png);
+    background-size: 30%;
+    background-repeat: repeat-y;
+    .wrapper-inner{
+        background-color:#1c2939;
+        padding: 70px;
+    }
+    .form-newsletter {
+        border: 1px solid #fff;
+        margin-top: 5px;
+        margin-top: 0.3125rem;
+        padding-top: -1px;
+        padding-top: -0.0625rem;
+        .newsletter-box {
+            margin-left: 0;
+            margin-right: 0;
+            .newsletter-box-data {
+                padding-left: 0;
+                padding-right: 0;
+                .news-data {
+                    border: none;
+                    color: #fff;
+                    margin-right: -4px;
+                    margin-right: -0.25rem;
+                    outline: none;
+                    padding: 12px;
+                    font-size: 13px;
+                    width: 100%;
+                    background-color: #1c2939;
+                    @media (max-width: 991px) {
+                        padding:16px;
+                    }
+                    &:first-child {
+                        border-bottom: 1px solid #fff;
+                        @media (max-width: 991px) {
+                            border-bottom: 1px solid #2f4051;
+                        }
+                    }
+                    &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+                        color:    #fff;
+                    }
+                    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                    color:    #fff;
+                    opacity:  1;
+                    }
+                    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+                    color:    #fff;
+                    opacity:  1;
+                    }
+                    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color:    #fff;
+                    }
+                    &::-ms-input-placeholder { /* Microsoft Edge */
+                    color:    #fff;
+                    }
+                }
+            }
+            .newsletter-box-btn {
+                padding-left: 0;
+                padding-right: 0;
+                .btn-cadastrar-newsletter {
+                    background-color: #1c2939;
+                    border: none;
+                    color: #1c1c1c;
+                    font-size: 12px;
+                    font-size: 0.75rem;
+                    font-weight: bold;
+                    outline: none;
+                    padding: 7px 0;
+                    height: 100%;
+                    width: 100%;
+                    border-left: 1px solid #fff;
+                    &:focus, &:hover {
+                        background-color: #131b20;
+                    }
+                    @media (max-width: 991px) {
+                        padding:12px 0;
+                    }
+                }
+            }
+        }
+
+    }
+    .text-newsletter {
+        .instrucoes-newsletter {
+            font-size: 18px;
+            margin-bottom: 0;
+            font-weight: 100;
+        }
+        .titulo-newsletter {
+            font-size: 44px;
+            margin-bottom: 0;
+            @media (max-width: 991px) {
+                font-size: 30px;
+            }
+        }
+    }
+    // Small devices (landscape phones, 576px and down)
+    @media (max-width: 991px) {
+        padding: 30px 0 30px 33px;
+        .wrapper-inner {
+            padding: 40px 5%;
+        }
+        .form-newsletter {
+            margin-top: 20px;
+            margin-top: 1.25rem;
+            .btn-cadastrar-newsletter {
+                margin-bottom: -1px;
+                margin-bottom: -0.0625rem;
+                width: 100%;
+                border-top: 1px solid #fff !important;
+                border-left:0 !important;
+            }
+        }
+        .text-newsletter {
+            .instrucoes-newsletter {
+                text-align: left;
+                font-size:15px;
+            }
+            .titulo-newsletter {
+                text-align: center;
+            }
+        }
+    }
+}

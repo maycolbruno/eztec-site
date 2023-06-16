@@ -1,0 +1,54 @@
+.wrapper-banner {
+    position: relative;
+    background-color: #1c2939;
+    .banner {
+        background-size: 2560px 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        height: 388px;
+        width: 100%;
+        .banner-text-content {
+            padding: 0 15px;
+            padding: 0 0.9375rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            p, h1 {
+                color: #fff;
+                font-size: 40px;
+                font-size: 2.5rem;
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+        &.banner-404 {
+            @media (max-width: 575px) {
+                background-size: 1500px 100%;
+                height: 227px;
+            }
+        }
+
+    }
+    &.banner-imovel {
+        .banner {
+            height: 260px !important;
+        }
+    }
+}
+
+.banner-video {
+    background-color: #101519;
+    padding: 12px 0;
+    padding: 0.75rem 0;
+    .banner-video-iframe-box {
+        margin: 0 auto;
+    }
+    @media (max-width: 991px) {
+        padding: 16px 0 12px 0;
+        padding: 1rem 0 0.75rem 0;
+    }
+}

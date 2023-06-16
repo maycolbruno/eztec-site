@@ -1,0 +1,96 @@
+.section-footer-local {
+    background-color: #131b20;
+    color: #fff;
+    padding: 30px 15px;
+    padding: 1.875rem 0.9375rem;
+    .sociais-footer {
+        display: flex;
+        a {
+            &.link-footer{
+                opacity: 0.4;
+                color: #fff;
+                font-size: 11px;
+            }
+        }
+        img {
+            margin-bottom: 15px;
+        }
+        .endereco-local-footer {
+            color: #fff;
+            opacity: 0.4;
+            font-size: 11px;
+            cursor: pointer;
+            text-decoration: none;
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .nome-local-footer {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #717679;
+            margin-bottom: 15px;
+            max-width: 240px;
+            &.sociais-no-border{
+                border:0;
+            }
+            @media (max-width: 991px) {
+                margin-top: 30px;
+            }
+        }
+        .footer-item-contato-tel{
+            margin:0;
+        }
+        .vendas-local-mobile{
+            display: none;
+            .card{
+                background-color: rgba(0,0,0,0);
+                width:240px;
+                .nome-local-footer{
+                    width:220px;
+                    border-bottom:0;
+                    margin-bottom: 2px;
+                    cursor:pointer;
+                }
+                .seta-footer-contato {
+                    border: solid #717679;
+                    border-width: 0 3px 3px 0;
+                    display: inline-block;
+                    padding: 3px;
+                    transform: rotate(45deg);
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 30px;
+                    cursor:pointer;
+                }
+                .divisor-contato-footer{
+                    height:1px;
+                    background-color:#717679;
+                    width:240px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .sociais-footer {
+            div {
+                text-align: left;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .sociais-footer {
+            div {
+                text-align: left;
+            }
+            .vendas-local-desk{
+                display: none;
+            }
+            .vendas-local-mobile{
+                display: block;
+            }
+        }
+    }
+}

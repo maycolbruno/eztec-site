@@ -1,0 +1,32 @@
+.wrapper-imovel-galeria {
+	background-color: #f0f0f0;
+	.nav-tabs{
+		border:0;
+		.nav-item{
+			.nav-link{
+				color: #1c2939;
+				background-color: transparent;
+				border-color: transparent;
+				font-size: 20px;
+				outline: none;
+				@media (max-width: 767px) {
+					font-size: 16px;
+				}
+				&.active{
+					color:$eztec-red;
+				}
+			}
+		}
+	}
+	.tab-content{
+		.wrapper-imovel-apartamento {
+			padding: 45px 0;
+		}
+		.wrapper-imovel-lazer {
+			padding: 45px 0;
+		}
+		.wrapper-imovel-plantas {
+			padding: 45px 0;
+		}
+	}
+}

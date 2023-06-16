@@ -1,0 +1,146 @@
+.obra{
+    &.produto-obra{
+        padding-top: 0;
+        .wrap-status {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .btn-galeria-obra{
+            text-align:right;
+            @media (max-width: 767px) {
+                text-align:center;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    padding-top: 101px;
+    @media (max-width: 991px) {
+        padding-top:0;
+    }
+    .obra-header {
+        background-color: #1c2939;
+        text-align: center;
+        padding: 90px 0;
+        .logo-imovel {
+            max-width: 250px;
+            width: 100%;
+        }
+    }
+    .detalhe-titulo-obra {
+        width: 93px;
+        height: 3px;
+        background-color: $eztec-red;
+    }
+    .titulo-obra {
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin: 20px 0;
+        @media (max-width: 767px) {
+            font-size: 23px;
+        }
+    }
+    .wrap-status {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .status-name {
+            color: #ffb500;
+            font-weight: 300;
+            letter-spacing:1px;
+            font-size: 20px;
+        }
+        .status-percent {
+            color: #ffb500;
+            font-weight: 300;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+        .progress{
+            border-radius: 0;
+            margin-bottom: 50px;
+            @media (max-width: 767px) {
+                margin-bottom: 20px;
+            }
+            .progress-bar{
+                background-color: #1c4053;
+            }
+        }
+    }
+}
+.wrapper-imovel-obra {
+    padding: 80px 0;
+    &.page-obra{
+        background-color:#f0f0f0;
+    }
+    .btn-obra {
+        margin: 50px auto 0;
+        .btn{
+            padding: 10px 100px;
+        }
+    }
+    .status-obra {
+        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
+        .status-obra-list {
+            .status-obra-list-item {
+                flex-basis: 20%;
+                min-width: 100px;
+                max-width: 136px;
+                width: 9vw;
+                .status-obra-list-item-percent {
+                    border-top: 1px solid #d5d2d2;
+                    font-size: 24px;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    margin: 0;
+                    padding-top: 12px;
+                    padding-top: 0.75rem;
+                    text-align: center;
+                    &.active {
+                        color: $eztec-red;
+                    }
+                }
+                .status-obra-list-item-icon {
+                    padding: 24px 0 12px 0;
+                    padding: 1.5rem 0 0.75rem 0;
+                    text-align: center;
+                }
+                .status-obra-list-item-titulo {
+                    font-size: 12px;
+                    font-size: 0.75rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.obra-status-desk{
+    display:block;
+    @media (max-width: 767px) {
+        display:none;
+    }
+}
+.obra-status-mobile{
+    display:none;
+    @media (max-width: 767px) {
+        display:block;
+    }
+}
+.seta-obra-acordion {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    cursor:pointer;
+}
+.titulo-obra-acordion {
+    font-size: 17px;
+}
+.wrapper-titulo-obra-acordion {
+    max-width: 300px;
+    margin: 0 auto;
+}

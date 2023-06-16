@@ -1,0 +1,401 @@
+.wrapper-campanha {
+    padding: 101px 0 0;
+    @media (max-width: 991px) {
+        padding: 0;
+    }
+    .carousel {
+        .carousel-control-next, .carousel-control-prev {
+            .carousel-control-next-icon, .carousel-control-prev-icon {
+                background-image: none;
+                border: 3px solid #fff;
+                border-radius: 50%;
+                box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.3);
+                display: block;
+                height: 50px;
+                width: 50px;
+                i {
+                    font-size: 40px;
+                    font-size: 2.5rem;
+                    text-shadow: 1px 1px 2px #000;
+                }
+            }
+            .carousel-control-next-icon {
+                i {
+                    margin-left: 4px;
+                    margin-left: .25rem;
+                }
+            }
+            .carousel-control-prev-icon {
+                i {
+                    margin-right: 4px;
+                    margin-right: .25rem;
+                }
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                background-color: #000;
+                &.a-eztec-premios-box-carousel-item {
+                    background-color: #FFF !important;
+                }
+                img {
+                    display: block;
+                }
+                .carousel-caption {
+                    left: 0;
+                    top: 0;
+                    .carousel-caption-center {
+                        width: 80%;
+                        span {
+                            display: block;
+                        }
+                        .btn {
+                            border-bottom: 1px solid $eztec-red-dark;
+                            font-size: 18px;
+                            font-size: 1.125rem;
+                            margin-top: 1.3vw;
+                            padding: 10px 50px;
+                            padding: .625rem 3.125rem;
+                        }
+                        .banner-slide-status {
+                            color: #fff;
+                            font-size: 1.2vw;
+                            font-style: italic;
+                            line-height: 25px;
+                            line-height: 1.5625rem;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                        .banner-slide-title {
+                            font-size: 3vw;
+                            line-height: 130%;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                        .banner-slide-subtitle {
+                            font-size: 1.5vw;
+                            font-weight: 100;
+                            line-height: 30px;
+                            line-height: 1.875rem;
+                            text-shadow: 1px 1px 2px #000;
+                        }
+                    }
+                    &.home-version {
+                        .carousel-caption-center {
+                            .carousel-caption-center-info-box {
+                                background-color: rgba(0, 0, 0, .5);
+                                padding: 0 10px;
+                                padding: 0 0.625rem;
+                                margin-top: 4px;
+                                margin-top: 0.25rem;
+                                width: fit-content;
+                                width: -moz-fit-content;
+                                width: -webkit-fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1700px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                padding: 8px 40px;
+                                padding: 0.5rem 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1600px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 50px;
+                    width: 50px;
+                    i {
+                        font-size: 40px;
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.1vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 2.8vw;
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.3vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1500px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 45px;
+                    width: 45px;
+                    i {
+                        font-size: 35px;
+                        font-size: 2.1875rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                font-size: 14px;
+                                font-size: 0.875rem;
+                                margin-top: 1vw;
+                                padding: 5px 30px;
+                                padding: 0.3125rem 1.875rem;
+                            }
+                            .banner-slide-title {
+                                line-height: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1400px) {
+            .carousel-control-next, .carousel-control-prev {
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 35px;
+                    width: 35px;
+                    i {
+                        font-size: 27px;
+                        font-size: 1.6875rem;
+                    }
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-title {
+                                font-size: 2.2vw;
+                                line-height: 140%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.2vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1200px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .btn {
+                                font-size: 12px;
+                                font-size: 0.75rem;
+                            }
+                            .banner-slide-title {
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                line-height: 160%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 991px) {
+            .carousel-control-next, .carousel-control-prev {
+                bottom: 0;
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.6vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 3.5vw;
+                                line-height: 150%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 1.5vw;
+                                line-height: 190%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            .banner-slide-status {
+                                font-size: 1.6vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 4vw;
+                                line-height: 190%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 2.2vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 575px) {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-caption-center {
+                            width: 70%;
+                            .banner-slide-status {
+                                font-size: 4vw;
+                            }
+                            .banner-slide-title {
+                                font-size: 6vw;
+                                line-height: 140%;
+                            }
+                            .banner-slide-subtitle {
+                                font-size: 4vw;
+                                line-height: 140%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .campanha-section {
+        border-bottom: 1px solid #d5d2d2;
+        padding: 50px 0;
+        padding: 3.125rem 0;
+    }
+    section:last-child {
+        .campanha-section {
+            border: none;
+        }
+    }
+    .campanha-presentation {
+        padding: 50px 0;
+
+        .campanha-presentation-pre-content {
+            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
+        }
+        .campanha-presentation-pos-content {
+            margin-top: 40px;
+            margin-top: 2.5rem;
+        }
+        .campanha-presentation-content {
+            .campanha-presentation-descricao {
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    .campanha-item  {
+        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
+        .campanha-item-box {
+            background-color: #1c2939;
+            -moz-transition: .3s ease; /* Firefox */
+            -webkit-transition: .3s ease; /* WebKit */
+            -o-transition: .3s ease; /* Opera */
+            transition: .3s ease; /* Standard */
+            a {
+                text-decoration: none;
+            }
+            .campanha-item-imagem {
+                position: relative;
+                .campanha-item-imagem-status {
+                    color: #000;
+                    font-size: 13px;
+                    margin: 0;
+                    padding: 4px 30px;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    background-color: #fff;
+                    text-transform: uppercase;
+                }
+            }
+            .campanha-item-text {
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                .campanha-item-descricao {
+                    border-bottom: 1px solid #d5d2d2;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    padding: 1.25rem;
+                    .campanha-item-descricao-regiao {
+                        font-size: 18px;
+                        font-size: 1.125rem;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                    .campanha-item-descricao-produto {
+                        color: $eztec-red;
+                        margin: 0;
+                        text-align: center;
+                    }
+                }
+                .campanha-item-info {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    padding: 1.25rem;
+                    .campanha-item-info-text {
+                        font-size: 13px;
+                        font-size: 0.8125rem;
+                        font-weight: 600;
+                        margin: 0;
+                        text-align: center;
+                    }
+                }
+            }
+            &:hover {
+                -webkit-box-shadow: 0px 20px 33px -3px rgba(0,0,0,.3);
+                -webkit-box-shadow: 0rem 1.25rem 2.0625rem -0.1875rem rgba(0,0,0,.3);
+                -moz-box-shadow: 0px 20px 33px -3px rgba(0,0,0,.3);
+                -moz-box-shadow: 0rem 1.25rem 2.0625rem -0.1875rem rgba(0,0,0,.3);
+                box-shadow: 0px 20px 33px -3px rgba(0,0,0,.3);
+                box-shadow: 0rem 1.25rem 2.0625rem -0.1875rem rgba(0,0,0,.3);
+            }
+        }
+    }
+    .campanha-texto-legal {
+        font-size: 10px;
+        font-size: 0.625rem;
+        padding-bottom: 10px;
+        padding-bottom: 0.625rem;
+        padding-top: 20px;
+        padding-top: 1.25rem;
+        @media (max-width: 575px) {
+            font-size: 8px;
+            font-size: 0.5rem;
+        }
+    }
+}

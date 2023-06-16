@@ -1,0 +1,29 @@
+.section-footer-sociais {
+    background-color: #2a3035;
+    padding: 30px 15px;
+    padding: 1.875rem 0.9375rem;
+    .sociais-footer-lista {
+        display: flex;
+        margin: 0;
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) {
+            .social-footer-item {
+                margin: 0 10px;
+                margin: 0 0.625rem;
+            }
+        }
+        // Small devices (landscape phones, 576px and down)
+        @media (max-width: 767px) {
+            .social-footer-item {
+                margin: 0 4px;
+                margin: 0 0.25rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .social-footer-item.list-inline-item {
+        margin-right: 13px;
+    }
+}

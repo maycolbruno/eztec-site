@@ -1,0 +1,35 @@
+.wrapper-politica-privacidade {
+    background-color: #131b20;
+    .politica-privacidade {
+        padding: 60px 100px;
+        padding: 3.75rem 6.25rem;
+        .politica-privacidade-box {
+        background-color:#1c2939;
+            padding: 60px 9vw;
+            padding: 3.75rem 9vw;
+            -webkit-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -webkit-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 27px 0 rgba(0,0,0,0.25);
+            box-shadow: 0 0 1.6875rem 0 rgba(0,0,0,0.25);
+            .politica-privacidade-box-item {
+                padding-bottom: 100px;
+                padding-bottom: 6.25rem;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .politica-privacidade {
+            padding: 60px 40px;
+            padding: 1.875rem 2.5rem;
+            .politica-privacidade-box {
+                padding: 40px 2vw;
+                padding: 2.5rem 2vw;
+            }
+        }
+    }
+}

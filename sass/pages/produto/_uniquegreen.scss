@@ -1,0 +1,2401 @@
+.imovel-template-tpt-post-produto-uniquegreen-home,
+.page-template-tpt-page-uniquegreen-starchtects,
+.page-template-tpt-page-uniquegreen-projeto,
+.page-template-tpt-page-uniquegreen-boutiquehotel,
+.page-template-tpt-page-uniquegreen-aptos,
+.page-template-tpt-page-uniquegreen-complexo,
+.page-template-tpt-page-uniquegreen-investimento,
+.page-template-tpt-page-uniquegreen-obra,
+.page-template-tpt-page-uniquegreen-regiao,
+.page-template-tpt-page-uniquegreen-servicos,
+.page-template-tpt-page-uniquegreen-videos,
+.page-template-tpt-page-uniquegreen-lazer 
+{
+	#oPrivallyApp{
+		#oPrivallyApp-OptionBar {
+			@media (max-width: 767px) {
+				bottom: 68px !important;
+			}
+		}
+		#oPrivallyApp-Bar{
+			@media (max-width: 767px) {
+				bottom: 68px !important;
+			}
+		}
+	}
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.wrapper-1920{
+	max-width:1920px;
+	width:100%;
+	margin: 0 auto;
+}
+
+.wrapper-imovel.uniquegreen {
+	/*GERAL*/
+	font-family: 'Roboto', sans-serif;
+	background-color:#222227;
+	margin-top:0;
+	color:#192119;
+	body {
+		padding-top: 151px;
+	}
+
+
+	/*FOOTER*/
+	.wrapper-inner-footer-uniquegreen {
+		padding: 70px 1% 60px;
+	}
+	.wrapper-geral-footer-uniquegreen {
+		background-color: #192119;
+		color: #fff;
+		padding-top: 50px;
+	}
+	.hr-divisor-footer-uniquegreen {
+		height: 2px;
+		background-color: #fff;
+	}
+	.address-footer-uniquegreen {
+		font-size: 17px;
+	}
+	.logo-ez-footer-uniquegreen img {
+		width: 179px;
+	}
+	.footer-uniquegreen-content {
+		width: 100%;
+	}
+	.text-footer-uniquegreen {
+		text-align: right;
+	}
+	.sociais-footer-uniquegreen {
+		text-align: center;
+		padding-top: 16px;
+	}
+	.sociais-footer-uniquegreen img {
+		margin: 0 6px;
+	}
+	.copyright-footer-uniquegreen {
+		font-size: 14px;
+	}
+	.footer-ri p {
+		color: #fff;
+		text-align: center;
+		font-size: 11px;
+		margin-top: 40px;
+	}
+	@media (max-width: 991px) {
+		.text-footer-uniquegreen {
+			text-align: center;
+			margin-top: 20px;
+		}
+		.logo-ez-footer-uniquegreen {
+			text-align: center;
+		}
+	}
+	@media (max-width: 575px) {
+		.address-footer-uniquegreen {
+			font-size: 14px;
+		}
+		.copyright-footer-uniquegreen {
+			font-size: 13px;
+		}
+		.logo-ez-footer-uniquegreen {
+			margin-bottom: 10px;
+		}
+	}
+
+
+
+
+
+	/* Video Preview */
+	.wrapper-geral-h-videopreview {
+		margin-top: 152px;
+		@media (max-width: 991px) {
+			margin-top: 111px;
+		}
+		@media (max-width: 767px) {
+			margin-top: 37px;
+		}
+	}
+	.wrapper-videopreview {
+		position: relative;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.video-preview-txt-container {
+		z-index: 1;
+		text-align: center;
+		position: absolute;
+	}
+	.video-review-video-container {
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #f8f5f4;
+	}
+	.vidpreview-cta {
+		background-color: rgba(0,0,0,0.3);
+		border: 1px solid;
+		border-radius: 8px;
+		font-size: 13px;
+		letter-spacing: 3px;
+		padding: 7px 19px;
+		cursor: pointer;
+	}
+	.videopreview-video {
+		width: 100%;
+	}
+	.wrapper-inner-h-videopreview {
+		max-width: 2560px;
+		margin: 0 auto;
+	}
+	.wrapper-video-header-uniquegreen{
+		position:relative;
+	}
+	.video-header-uniquegreen {
+		width: 100%;
+		top: 0;
+		z-index: 0;
+	}
+	.wrapper-video-header-uniquegreen img {
+		z-index: 1;
+		margin: 0 auto;
+		cursor:pointer;
+	}
+	.modal-content-video-uniquegreen {
+		background-color: #000;
+	}
+	.wrapper-inner-uniquegreen{
+		max-width:1920px;
+		width:100%;
+		margin:0 auto;
+	}
+	.video-preview-txt-container {
+		color: #fff;
+		text-shadow: 1px 1px rgba(0,0,0,0.7);
+		padding: 0 4%;
+	}
+	.videopreview-titulo {
+		font-size: 22px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		width: 232px;
+		margin: 0 auto;
+	}
+	.videopreview-titulo.uniquegreen-home {
+		width: 137px;
+	}
+	.videopreview-titulo.uniquegreen-regiao {
+		width: 69px;
+	}
+	.videopreview-titulo.uniquegreen-servicos {
+		width: 107px;
+	}
+	.videopreview-titulo.uniquegreen-obra {
+		width: 206px;
+	}
+	.videopreview-titulo.uniquegreen-home {
+		width: 111px;
+	}
+	.videopreview-titulo.uniquegreen-aptos {
+		width: 195px; 
+	}
+	.videopreview-titulo.uniquegreen-complexo {
+		width: 129px;
+	}
+	.videopreview-titulo.uniquegreen-lazer {
+		width: 140px;
+	}
+	.videopreview-titulo.uniquegreen-projeto {
+		width: 84px;
+	}
+	.videopreview-titulo.uniquegreen-videos {
+		width: 71px;
+	}
+	.videopreview-titulo.uniquegreen-boutiquehotel {
+		width: 167px;
+	}
+	.videopreview-titulo.uniquegreen-artdesign {
+		width: 262px;
+	}
+	.detalhe-titulo-uniquegreen {
+		width: 58px;
+		height: 3px;
+		background-color: #ffffff;
+		margin: 6px 0 24px;
+	}
+	.videpreview-chamada {
+		font-size: 29px;
+		margin-bottom: 34px;
+		padding: 0;
+	}
+	@media (max-width: 991px) {
+		.videpreview-chamada {
+			font-size: 19px;
+			margin-bottom: 20px;
+		}
+	}
+	@media (max-width: 767px) {
+		.videopreview-titulo {
+			font-size: 12px;
+		}
+		.videpreview-chamada {
+			font-size: 14px;
+			margin-bottom: 4px;
+		}
+		.videopreview-titulo.uniquegreen-home {
+			width: 142px;
+		}
+		.vidpreview-cta {
+			font-size: 11px;
+			padding: 5px 11px;
+		}
+		.play-uniquegreen-banner {
+			width: 36px;
+			height: 36px;
+		}
+		.detalhe-titulo-uniquegreen {
+			display: none;
+		}
+	}
+
+
+	/*HEADER*/
+	/*Menu de Interação*/
+	.menu-interacao.menu-interacao-uniquegreen {
+		background-color: #0b120b;
+	}
+	.menu-interacao-uniquegreen .mi-item {
+		background-color: transparent;
+		@media (max-width: 767px) {
+			background-color:#7f8494;
+		}
+	}
+	.menu-interacao-uniquegreen .mi-item.mi-item-corretor {
+		background-color: #fff;
+		color:#fff;
+	}
+	.wrapper-inner-menu-interacao-uniquegreen {
+		max-width: 1530px;
+		margin: 0 auto;
+	}
+	.menu-interacao-uniquegreen .mi-item.mi-item-corretor b {
+		color: #19262a;
+		font-weight: 600;
+		font-size: 14px;
+		padding-left: 12px;
+	}
+	.menu-interacao .mi-item.mi-item-whats {
+		padding-right: 5px;
+	}
+	.menu-interacao-uniquegreen .mi-item b {
+		font-weight:300;
+	}
+
+
+	/*Menu*/
+	.wrapper-geral-menu-uniquegreen {
+		background-color: #19262a;
+	}
+	.wrapper-inner-menu-uniquegreen {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 1530px;
+		height: 101px;
+		position: relative;
+	}
+	.wrapper-geral-menu-uniquegreen {
+		background-color:#192119;
+		margin-top: 51px;
+	}
+	.logo-uniquegreen {
+		position: absolute;
+		top: 0;
+		left: 15px;
+		width: 232px;
+		height: 63px;
+	}
+	.logo-uniquegreen-img {
+		max-width: 239px;
+		margin-top: 23px;
+	}
+	.wrapper-menu-uniquegreen {
+		margin: 0 1% 0 24%;
+	}
+	.navbar-uniquegreen {
+		height: 100px;
+	}
+	.navbar-nav-uniquegreen {
+		width: 100%;
+	}
+	.nav-link.nav-link-uniquegreen {
+		margin: 0 15px;
+	}
+	.nav-link-uniquegreen, .nav-link-uniquegreen:hover, .nav-link-uniquegreen:focus, .nav-link-uniquegreen:visited, .nav-link-uniquegreen:active, .menu-uniquegreen-dropdown-item, .menu-uniquegreen-dropdown-item:hover, .menu-uniquegreen-dropdown-item:focus, .menu-uniquegreen-dropdown-item:active, .menu-uniquegreen-dropdown-item:visited {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 300;
+	}
+	.dropdown-menu-uniquegreen, .menu-uniquegreen-dropdown-item, .menu-uniquegreen-dropdown-item:hover, .menu-uniquegreen-dropdown-item:focus, .menu-uniquegreen-dropdown-item:active, .menu-uniquegreen-dropdown-item:visited {
+		background-color: #7f8494;
+	}
+	.logo-uniquegreen-mobile{
+		display:none;
+	}
+	.btn-corretor-mobile {
+		display:none;
+		position: absolute;
+		background-color: #dab180;
+	}
+	@media (max-width: 991px) {
+		.wrapper-menu-uniquegreen {
+			margin: 0 0 0 22%;
+		}
+		.nav-link.nav-link-uniquegreen {
+			margin: 0 16px;
+		}
+		.mi-item.mi-item-corretor {
+			display: none;
+		}
+		.nav-link.nav-link-uniquegreen {
+			margin: 0 6px;
+		}
+		.logo-uniquegreen-img {
+			max-width: 163px;
+			margin-top: 30px;
+		}
+	}
+	@media (max-width: 767px) {
+		.logo-uniquegreen{
+			display:none;
+		}
+		.wrapper-geral-menu-uniquegreen {
+			margin-top: 0;
+		}
+		body {
+			padding-top: 77px;
+		}
+		.wrapper-menu-uniquegreen {
+			margin: 0;
+		}
+		.navbar-uniquegreen .navbar-toggler {
+			position: absolute;
+			top: 17px;
+			right: 3px;
+		}
+		.navbar-toggler-icon-detalhe {
+			width: 25px;
+			height: 2px;
+			background-color: #fff;
+			margin: 6px 0;
+		}
+		.navbar-nav-uniquegreen {
+			background-color: #192119;
+		}
+		.navbar-uniquegreen {
+			padding: 0;
+			height: auto;
+		}
+		.logo-uniquegreen-mobile{
+			display:block;
+		}
+		.wrapper-inner-menu-uniquegreen {
+			height: 78px;
+		}
+		.logo-uniquegreen-mobile {
+			position: absolute;
+			width: 92px;
+			left: 18px;
+			top: 7px;
+		}
+		.logo-uniquegreen-img-mobile {
+			width: 110px;
+		}
+		.btn-corretor-mobile {
+			display:block;
+			position: absolute;
+			background-color: #5a5d68;
+		}
+		.btn-corretor-mobile a, .btn-corretor-mobile a:hover, .btn-corretor-mobile a:visited, .btn-corretor-mobile a:focus, .btn-corretor-mobile a:active {
+			color:#fff;
+			text-decoration: none;
+		}
+		.btn-corretor-mobile {
+			right: 63px;
+			padding: 6px 14px;
+			top: 22px;
+			font-size: 11px;
+		}
+	}
+	@media (max-width: 375px) {
+		.logo-uniquegreen-mobile {
+			width: 69px;
+			left: 14px;
+			top: 12px;
+		}
+		.logo-uniquegreen-img-mobile {
+			width: 69px;
+		}
+		.btn-corretor-mobile {
+			right: 63px;
+			padding: 6px 5px;
+			top: 22px;
+			font-size: 11px;
+		}
+	}
+
+
+
+	/*CONTATO*/
+	.wrapper-geral-uniquegreen-contato {
+		background-color: #192119;
+		color: #fff;
+		padding-top: 70px;
+	}
+	.wrapper-geral-uniquegreen-contato input, .wrapper-geral-uniquegreen-contato textarea {
+		background-color: #5a685a;
+		border: 0;
+		border-radius: 9px !important;
+		color: #fefefe;
+	}
+	.uniquegreen-pbrigatorios{
+		margin: 0;
+	}
+	.titulo-section-uniquegreen {
+		font-size: 21px;
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+	.contato-content-title{
+		.titulo-detalhe-uniquegreen {
+			background-color: #fff;
+		}
+	}
+	.titulo-detalhe-uniquegreen {
+		width: 58px;
+		height: 3px;
+		background-color: #dab180;
+		margin: 13px 0 13px;
+	}
+	.contato-uniquegreen-subtitulo {
+		font-size: 32px;
+	}
+	.wrapper-inner.wrapper-contato-body.contato-form {
+		max-width: 840px;
+	}
+	.wrapper-geral-uniquegreen-contato #btnEnviar {
+		background-color: #fff;
+		border: 0;
+		text-align: center;
+		margin-top: 30px;
+		padding-right: 80px;
+		color: #192119;
+	}
+	.wrapper-geral-uniquegreen-contato .contato-content-footer {
+		text-align: center;
+	}
+	.uniquegreen-pbrigatorios {
+		margin: 0;
+		text-align: left;
+		color: #fff;
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-uniquegreen-contato {
+			padding: 70px 3% 0;
+		}
+		.contato-uniquegreen-subtitulo {
+			font-size: 15px;
+		}
+		.wrapper-geral-uniquegreen-contato label {
+			font-size: 12px;
+		}
+	}
+
+
+	/* Título de Seções */
+	.section-content-title {
+		font-weight: 400;
+		font-size: 40px;
+		color: #5d6276;
+	}
+	@media (max-width: 767px) {
+		.section-content-title {
+			font-size:26px;
+		}
+	}
+
+	/* GALERIAS EM GERAL */
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextTop {
+		top: 35% !important;
+		@media (max-width: 991px) {
+			border: 0;
+		}
+	}
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction a {
+		color: #858a93;
+		height: 128px;
+		width: 128px;
+	}
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction{
+		right: -140px !important;
+	}
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction{
+		left: -140px !important;
+	}
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .gallery .caption {
+		color: #19262a;
+		margin-top: 10px;
+		line-height: 1.1;
+	}
+	.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextBottom, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevBottom {
+		height:50px;
+		width: 50px;
+	}
+	@media (max-width: 991px) {
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction a {
+			height: 50px;
+			width: 50px;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextBottom {
+			right: -60px !important;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevBottom {
+			left: -60px !important;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextTop {
+			top: 44% !important;
+		}
+	}
+	@media (max-width: 767px) {
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSNextBottom {
+			right: 10px !important;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevTop, .image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction .lSPrevBottom {
+			left: 10px !important;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .lSAction a {
+			color: #fff;
+		}
+		.image-gallery-box .lSSlideOuter .lSSlideWrapper .gallery .caption {
+			font-size: 12px;
+		}
+	}
+
+
+	/* VÍDEO */
+	.wrapper-geral-uniquegreen-video{
+		padding: 0;
+		background-color:#ffffff;
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-uniquegreen-video{
+			padding: 60px 0;
+		}	
+	}
+
+
+	/* OBRA */
+	.wrapper-geral-uniquegreen-obra{
+		padding: 120px 0;
+		background-color:#ffffff;
+	}
+	.status-obra {
+		margin-top: 70px;
+	}
+	.imovel-obra .status-obra .status-obra-list .status-obra-list-item .status-obra-list-item-titulo {
+		border-top: 1px solid #d5d2d2;
+		padding-top: 10px;
+	}
+	.wrapper-imovel-obra .imovel-obra .status-obra .status-obra-list .status-obra-list-item .status-obra-list-item-percent {
+		border-bottom: 1px solid #d5d2d2;
+		padding-bottom: 12px;
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-uniquegreen-obra{
+			padding: 60px 0;
+		}	
+	}
+
+
+
+
+	/* LAZER */
+	.wrapper-inner-uniquegreen-apresentacao-lazer .sec-apresentacao-left {
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/ez-uniquegreen/assets/detalhe-projeto-home.png);
+		background-repeat: no-repeat;
+		background-position: 20% top;
+		@media (max-width: 1324px) {
+			background-size:0;
+		}
+	}
+	.img-677x374 {
+		margin-top: 85px;
+	}
+	.wrapper-inner-uniquegreen-apresentacao-lazer{
+		padding: 0 0 40px;
+		max-width: 1840px;
+		margin: 0 auto;
+	}
+	.wrapper-geral-uniquegreen-lazer{
+		padding: 120px 0;
+		background-color:#ffffff;
+	}
+	.wrapper-geral-uniquegreen-lazer-plantas{
+		padding: 60px 0;
+	}
+	.wrapper-geral-uniquegreen-lazer-galeria{
+		padding: 60px 0;
+	}
+	.sec-apresentacao-left {
+		text-align: right;
+	}
+	.wrap-apresentacao-left-txt {
+		padding-left: 56%;
+		text-align: left;
+		color: #19262a;
+	}
+	.apresentacao-info-titulo {
+		font-weight: bold;
+		font-size: 32px;
+	}
+	.apresentacao-info-chamada {
+		font-size: 42px;
+		line-height: 1.1;
+		font-weight: 400;
+		margin: 0;
+		color: #5d6276;
+	}
+	.apresentacao-info-desc {
+		font-weight:300;
+		font-size:18px;
+		padding: 0px 10px 80px 0;
+		margin: 0;
+	}
+	.wrapper-geral-uniquegreen-home .container-complexo .apresentacao-info-desc {
+		color: #818285;
+		font-weight: 300;
+		font-size: 18px;
+		padding: 0 40% 76px 0;
+		margin: 0;
+	}
+	.apresentacao-divisor-uniquegreen {
+		background-color: #828790;
+		height: 3px;
+		width: 58px;
+		margin: 11px 0;
+	}
+	.wrap-apresentacao-citacao {
+		background-color: #dab180;
+		max-width: 430px;
+		width: 100%;
+		color: #fff;
+		padding: 82px 30px 82px 70px;
+		margin: 42px 0 0;
+	}
+	.apresentacao-citacao {
+		font-style: italic;
+		font-size: 18px;
+		margin: 0;
+	}
+	@media (max-width: 1300px) {
+		.wrap-apresentacao-left-txt {
+			padding-left: 26%;
+			text-align: left;
+			color: #19262a;
+		}
+	}
+	@media (max-width: 991px) {
+		.wrapper-imovel.uniquegreen .apresentacao-info-desc {
+			padding: 80px 30px 136px 0;
+		}
+		.img-citacao {
+			display: none;
+		}
+		.wrap-apresentacao-citacao {
+			margin: 40px auto;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-uniquegreen-lazer{
+			padding: 60px 0;
+		}
+		.wrapper-geral-uniquegreen-lazer-plantas{
+			padding: 60px 0;
+		}
+		.wrapper-geral-uniquegreen-lazer-galeria{
+			padding: 60px 0;
+		}
+		.wrap-apresentacao-left-txt {
+			padding-left: 4%;
+		}
+		.apresentacao-info-desc {
+			font-size: 15px;
+			padding: 32px 4% 36px;
+		}
+		.apresentacao-info-chamada {
+			font-size: 27px;
+		}
+		.apresentacao-info-titulo {
+			font-size: 15px;
+		}
+		.wrapper-inner-uniquegreen-apresentacao-lazer {
+			padding: 40px 0 40px;
+		}
+		.wrap-apresentacao-citacao {
+			padding: 52px 4% 52px;
+			margin: 40px auto 0;
+		}
+	}
+
+
+
+	/* APARTAMENTOS */
+	.wrapper-inner-uniquegreen-apresentacao-apto{
+		padding: 50px 0 40px;
+		max-width: 1840px;
+		margin: 0 auto;
+		@media (max-width: 991px) {
+			padding: 0 0 82px;
+		}
+	}
+	.img-citacao {
+		margin-top: 30px;
+	}
+	.wrapper-geral-uniquegreen-apto{
+		padding: 120px 0;
+		background-color:#ffffff;
+	}
+	.wrapper-geral-uniquegreen-apto-plantas{
+		padding: 60px 0;
+	}
+	.wrapper-geral-uniquegreen-apto-galeria{
+		padding: 60px 0;
+	}
+	.wrapper-box-produto-uniquegreen-aptos {
+		font-size: 20px;
+		line-height: 1.3;
+		margin: 130px 0 0;
+		color: #818285;
+		@media (max-width: 991px) {
+			margin: 40px 0 0;
+		}
+	}
+	.wrapper-box-produto-uniquegreen-aptos span {
+		font-size: 16px;
+	}
+	@media (max-width: 991px) {
+		.wrapper-box-produto-uniquegreen-aptos {
+			text-align: center;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-geral-uniquegreen-apto{
+			padding: 60px 0;
+		}
+		.wrapper-geral-uniquegreen-apto-plantas{
+			padding: 60px 0;
+		}
+		.wrapper-geral-uniquegreen-apto-galeria{
+			padding: 60px 0;
+		}
+		.wrapper-inner-uniquegreen-apresentacao-apto {
+			padding: 40px 0 40px;
+		}
+		.wrap-apresentacao-citacao {
+			padding: 52px 4% 52px;
+			margin: 40px auto 0;
+		}
+		.wrapper-box-produto-uniquegreen-aptos {
+			font-size: 12px;
+		}
+		.wrapper-box-produto-uniquegreen-aptos span {
+			font-size: 11px;
+		}
+	}
+
+
+	/* HOME */
+	.wrapper-geral-uniquegreen-home{
+		.uniquegreen-apresentacao {
+			background-repeat: no-repeat;
+			height: 635px;
+			background-position: 0 110px;
+			background-size: 32%;
+			background-color: #f8f5f4;
+			@media (max-width: 1600px){
+				height: 485px;
+				background-position: 0 148px;
+				background-size: 22%;
+			}
+			@media (max-width: 1200px){
+				background-image: none !important;
+			}
+			@media (max-width: 991px){
+				height: auto;
+			}
+		}
+	}
+
+	/* HOME - Projeto */
+	.wrapper-inner-uniquegreen-home-projeto{
+		padding: 0;
+		max-width: 1472px;
+		margin: 0 auto;
+	}
+	.wrap-uniquegreen-projeto-content {
+		background-repeat: no-repeat;
+		background-position: 0 249px;
+		padding: 0 0 0 368px;
+	}
+	.wrap-inner-content-projeto {
+		padding: 30px 10px 100px 0;
+	}
+	.apresentacao-info-desc.projeto {
+		font-weight: 300;
+		font-size: 32px;
+		padding: 0;
+		margin: 0 0 60px;
+	}
+	.wrapper-box-produto-uniquegreen {
+		font-size: 21px;
+		color: #818285;
+		margin: 100px 0;
+		@media (max-width: 767px) {
+			margin: 30px 0;
+		}
+		span{
+			font-size: 16px;
+			@media (max-width: 767px) {
+				font-size:11px;
+			}
+		}
+	}
+	.wrapper-geral-uniquegreen-home-regiao {
+		height: 1212px;
+		.apresentacao-info-titulo {
+		    margin-top: 45px;
+		    color: #fff;
+		    font-size: 30px;
+		}
+		.apresentacao-info-chamada {
+		    font-size: 25px;
+		    color: #fff;
+		    font-weight: 300;
+		}
+	}
+	.btn-cta-uniquegreen {
+		text-decoration: none !important;
+		color: #19262a !important;
+		font-weight: 600;
+		font-size: 17px;
+		letter-spacing: 1.1px;
+		background-repeat: no-repeat;
+		width: 194px;
+		height: 116px;
+		display: block;
+		background-position: right top;
+		padding: 24px 0 0;
+	}
+	.apresentacao-info-desc.artdesign {
+		color: #818285;
+		font-weight: 300;
+		font-size: 18px;
+		padding: 0 48% 0 0;
+		margin: 0 0 60px;
+		@media (max-width: 991px){
+			color: #19262a;
+			margin: 0 0 30px;
+		}
+	}
+	.container-artdesign-art .apresentacao-info-titulo {
+		margin-top: 0 !important;
+		padding-top: 20px !important;
+	}
+	.art-txt {
+		background-repeat: no-repeat;
+		background-position: right top;
+		height: 622px;
+		@media (max-width: 1426px) {
+			height: 512px;
+			background-size: 50%;
+		}
+		@media (max-width: 1050px) {
+			height: auto;
+			background-size: 0;
+		}
+		@media (max-width: 991px) {
+			text-align:center;
+		}
+	}
+	.container-artdesign .wrap-inner-content-projeto {
+		padding: 60px 10px 100px 0;
+		@media (max-width: 991px){
+			padding: 30px 10px 10px 0;
+		}
+	}
+	.art-txt .apresentacao-divisor-uniquegreen {
+		@media (max-width: 991px){
+			margin: 10px auto;
+		}
+	}
+	.apresentacao-info-chamada-artdesign {
+		width: 348px;
+		font-size: 27px;
+		line-height: 1.2;
+		margin-bottom: 50px;
+		color: #5d6276;
+		@media (max-width: 991px){
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		@media (max-width: 767px){
+			font-size: 17px;
+		}
+	}
+	.wrap-art-img-topo {
+		@media (max-width: 991px){
+			text-align: center;
+		}
+	}
+	.apresentacao-info-desc-artdesign {
+		padding: 0 0 0 50px;
+		width: 460px;
+		color: #818285;
+		@media (max-width: 991px){
+			padding:0;
+			width:100%;
+		}
+		@media (max-width: 767px){
+			font-size: 14px;
+		}
+	}
+	.wrap-artdesign-txt .apresentacao-info-titulo {
+		margin-top: 45px;
+		@media (max-width: 991px){
+			margin-top: 10px;
+		}
+	}
+	.wrap-boutiquehotel-img {
+		text-align: right;
+	}
+	.wrap-txt-arch{
+		padding: 0 0 0 108px;
+	}
+	.wrap-txt-arch .apresentacao-info-titulo {
+		margin-top: 100px;
+	}
+	.wrap-txt-arch .apresentacao-info-chamada {
+		margin-bottom: 35px;
+		@media (max-width: 767px) {
+			font-size: 22px;
+		}
+	}
+	.artdesign-img {
+		width: 100%;
+		max-width: 429px;
+	}
+	.wrap-btn-cta-boutiquehotel {
+		padding: 0 0 0 260px;
+		@media (max-width: 1200px){
+			padding: 0 0 0 140px;
+		}
+		@media (max-width: 767px){
+			padding: 0 0 0 70px;
+		}
+	}
+	@media (max-width: 991px){
+		.wrap-uniquegreen-projeto-content {
+			padding: 0 0 0 170px;
+			background-size: 0;
+		}
+		.wrap-inner-content-projeto {
+			padding: 60px 10px 0 0;
+		}
+		.wrap-artdesign-img {
+			text-align: center;
+		}
+		.bg-artdesign {
+			background-size: 0;
+			background-color: #a8adba;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrap-inner-content-projeto {
+			padding: 60px 10px 0 0;
+		}
+		.apresentacao-info-desc.projeto {
+			font-size: 15px;
+		}
+		.wrap-uniquegreen-projeto-content {
+			padding: 0 0 0 155px;
+		}
+		.boutiquehotel-img {
+			width: 100%;
+		}
+	}
+	@media (max-width: 575px) {
+		.wrapper-inner-uniquegreen-home-projeto{
+			padding: 60px 0 0px;
+		}
+		.wrap-uniquegreen-projeto-content {
+			background-image: none !important;
+			padding: 0 4% 0;
+		}
+		.wrap-inner-content-projeto {
+			padding: 21px 0 0;
+		}
+		.apresentacao-info-desc.projeto {
+			font-size: 11px;
+			margin: 0 0 40px;
+		}
+		.wrapper-box-produto-uniquegreen {
+			font-size: 15px;
+		}
+		.btn-cta-uniquegreen {
+			margin: 0 auto;
+		}
+	}
+
+	/* HOME - artdesign */
+	.bg-artdesign {
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/ez-uniquegreen/assets/bg-artdesign-home.jpg);
+		background-repeat: no-repeat;
+		background-position: right top;
+	}
+	.wrapper-inner-uniquegreen-home-artdesign{
+		padding: 0 0 40px;
+		max-width: 1528px;
+		margin: 0 auto;
+	}
+	@media (max-width: 1500px){
+		.wrap-txt-arch {
+			padding: 0 0 0 2%;
+		}
+	}
+	@media (max-width: 991px){
+		.wrap-artdesign-txt {
+			margin: 30px 5%;
+		}
+		.apresentacao-info-desc.artdesign {
+			padding: 0 5% 0 0;
+		}
+		.wrap-txt-arch .apresentacao-info-titulo {
+			margin-top: 0;
+		}
+		.wrapper-inner-uniquegreen-home-artdesign {
+			padding: 0;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-inner-uniquegreen-home-artdesign{
+			padding: 0 0 60px;
+		}
+	}
+	@media (max-width: 575px) {
+		.wrapper-inner-uniquegreen-home-artdesign {
+			padding: 50px 0 60px;
+		}
+	}
+
+	/* HOME - boutiquehotel */
+	.wrapper-inner-uniquegreen-home-boutiquehotel{
+		padding: 0 0 100px;
+		max-width: 1928px;
+		margin: 0 auto;
+	}
+	@media (max-width: 991px){
+		.boutiquehotel-img {
+			width: 100%;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-inner-uniquegreen-home-boutiquehotel{
+			padding: 0 0 60px;
+		}
+	}
+
+	/* HOME - Serviços */
+	.geral-servicos {
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/ez-uniquegreen/assets/bg-servicos-home.jpg);
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-bottom: 0;
+	}
+	.wrap-servicos-cta .btn-cta-uniquegreen {
+		width: auto;
+		height: auto;
+		padding: 0;
+	}
+	.wrap-servicos-img {
+		text-align: right;
+		margin: 60px 0;
+	}
+	.servicos-img {
+		max-width: 421px;
+	}
+	.wrap-txt-servicos {
+		margin-top: 60px;
+		padding: 0 20% 0 120px;
+	}
+	.wrapper-btn-cta-uniquegreen {
+		margin-top: 30px;
+	}
+	.wrap-servicos-cta {
+		background-color: #fff;
+		padding: 0;
+	}
+	.wrapper-imovel.uniquegreen .wrapper-inner-uniquegreen-home-servicos {
+		padding: 0 0 118px;
+		max-width: 2560px;
+		margin: 0 auto;
+		height: 600px;
+		background-color: #dfe6ea;
+	}
+	.wrap-txt-servicos .apresentacao-info-desc {
+		color: #818285;
+		font-weight: 300;
+		font-size: 18px;
+		padding: 30px 0 0;
+		margin: 0;
+	}
+	@media (max-width: 1440px) {
+		.servicos-img {
+			width: 100%;
+		}
+		.apresentacao-info-chamada {
+			font-size: 26px;
+		}
+		.wrap-servicos-cta img {
+			width: 100%;
+		}
+	}
+	@media (max-width: 991px){
+		.wrapper-inner-uniquegreen-home-servicos {
+			background-repeat: no-repeat;
+			background-position: left 0;
+		}
+		.servicos-img {
+			width: 80%;
+		}
+		.wrap-servicos-img {
+			text-align: center;
+			margin-top: 60px;
+		}
+		.wrap-txt-servicos {
+			margin-top: 0;
+		}
+		.btn-cta-uniquegreen {
+			margin: 0 auto 30px;
+		}
+		.wrap-artdesign-txt {
+			padding: 30px 5%;
+			margin: 0;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-inner-uniquegreen-home-servicos {
+			padding: 60px 0;
+			height: auto;
+			background-position: right top;
+			background-size: 150% 82%;
+		}
+		.container-servicos {
+			background-color: #a8adba;
+		}
+		.geral-servicos {
+			background-size: 0;
+			margin-bottom: 0;
+		}
+		.wrapper-imovel.uniquegreen .wrap-servicos-img {
+			margin-top: 0;
+			text-align: left;
+		}
+		.wrapper-imovel.uniquegreen .servicos-img {
+			width: 50%;
+			margin: 0 10% 0;
+		}
+		.container-servicos .wrap-artdesign-txt {
+			margin: 0;
+			padding: 0;
+		}
+		.container-servicos .wrap-txt-servicos {
+			margin-top: 0;
+			padding: 0 5%;
+		}
+		.container-servicos .wrapper-btn-cta-uniquegreen {
+			margin-bottom: 30px;
+		}
+	}
+	@media (max-width: 575px) {
+		.wrapper-inner-uniquegreen-home-servicos {
+			height: auto;
+			padding: 0;
+		}
+	}
+
+	/* HOME - Complexo */
+	.wrapper-inner-uniquegreen-home-complexo{
+		padding: 96px 0 115px;
+		max-width: 2560px;
+		margin: 0 auto;
+	}
+	.complexo-img {
+		width: 100%;
+	}
+	@media (max-width: 991px) {
+		.container-complexo .wrap-txt-arch .apresentacao-info-titulo {
+			margin-top: 30px;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-inner-uniquegreen-home-complexo{
+			padding: 60px 0;
+		}
+	}
+
+	/* HOME - Região */
+	.wrapper-geral-uniquegreen-home-regiao{
+		padding: 0;
+		max-width: 2560px;
+		margin: 0 auto;
+		background-position:center;
+		background-repeat: no-repeat;
+	}
+	.wrapper-inner-uniquegreen-home-regiao{
+		padding: 0;
+		max-width: 2560px;
+		margin: 0 auto;
+	}
+	.white-color{
+		color:#fff;
+	}
+	.container-regiao {
+		max-width: 1280px;
+		padding-top: 31px;
+		text-align: center;
+	}
+	.container-regiao .apresentacao-info-desc {
+		padding: 10px 0 0;
+		color: #fff;
+	}
+	.container-regiao a.btn-cta-uniquegreen {
+		color: #fff !important;
+	}
+	.img-regiao-mobile{
+		display:none;
+	}
+	@media (max-width: 991px){
+		.wrapper-geral-uniquegreen-home-regiao {
+			background-image:none !important;
+			height: auto;
+		}
+		.wrapper-inner-uniquegreen-home-regiao .wrap-artdesign-txt {
+			padding: 0;
+		}
+		.container-regiao {
+			padding-top: 0;
+		}
+		.container-regiao .wrap-artdesign-txt {
+			padding: 20px 0;
+			.apresentacao-info-titulo {
+			    font-size: 22px;
+			}
+			.apresentacao-info-chamada {
+			    font-size: 19px;
+			}
+		}
+		.wrapper-imovel.uniquegreen .container-regiao .btn-cta-uniquegreen {
+			margin: 40px auto 0;
+		}
+		.img-regiao-mobile{
+			display:block;
+		}
+	}
+	@media (max-width: 767px) {
+		.wrapper-inner-uniquegreen-home-regiao{
+			padding: 0;
+		}
+	}
+	@media (max-width: 575px) {
+		.wrapper-geral-uniquegreen-home-regiao {
+			background-size: 238%;
+		}
+		.wrapper-imovel.uniquegreen .container-regiao {
+			padding: 10px 30px 0;
+		}
+	}
+
+
+	.tourmaline-bg {
+		background-color: #183937;
+		padding: 90px 0;
+	}
+	.emerald-bg {
+		background-color: #192119;
+		padding: 90px 0;
+	}
+	.wrapper-inner-uniquegreen-home-imovel {
+		max-width: 1280px;
+		margin: 0 auto;
+		width: 100%;
+		.imagem {
+			text-align: center;
+		}
+		.box-info {
+			text-align: center;
+			color: #fff;
+			@media (max-width: 1200px) {
+				width: 100%;
+				margin: 40px 0;
+			}
+			.img-logo {
+				margin-bottom: 50px;
+			}
+			.box{
+				font-size:23px;
+				.box-maior {
+					font-size: 30px;
+				}
+			}
+			.barra {
+				background-color: #b07456;
+				height: 1px;
+				@media (max-width: 1200px) {
+					max-width: 275px;
+				}
+			}
+			.chamada {
+				font-size: 25px;
+				font-weight: 300;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+
+
+
+	/* REGIÃO */
+	.wrapper-geral-1920 {
+		max-width: 1920px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.wrap-content-sec1-txt {
+		padding-left: 30%;
+		@media (max-width: 991px){
+			padding-left: 5%;
+		}
+	}
+	.wrapper-inner-uniquegreen-regiao {
+		padding: 0 0 60px;
+		margin: 0 auto;
+		max-width: 1930px;
+	}
+	.wrapper-geral-uniquegreen-regiao {
+		background-color: #fff;
+	}
+	.wrapper-geral-uniquegreen-regiao .apresentacao-info-desc.projeto {
+		max-width: 480px;
+		margin: 0;
+	}
+	.wrapper-inner-uniquegreen-regiao .wrap-inner-content-projeto {
+		padding: 60px 10px 102px 100px;
+	}
+	.wrap-uniquegreen-regiao-infra-img img {
+		max-width: 1598px;
+		width: 100%;
+	}
+	.wrap-uniquegreen-regiao-infra-img {
+		text-align: right;
+	}
+	.wrap-regiao-uniquegreen-content {
+		padding-top: 0;
+	}
+	.compras-servicos-imgs-menor {
+		margin-top: 90px;
+	}
+	.wrap-compras-servicos-info-img{
+		text-align: right;
+	}
+	.compras-servicos-info-img {
+		padding-right: 6%;
+	}
+	.wrap-apresentacao-info-titulo {
+		padding: 0 0 0 37%;
+	}
+	.wrap-margin-support{
+		padding-left: 15%;
+	}
+	.regiao-uniquegreen-content-title {
+		letter-spacing: 1.3px;
+		font-weight: 600;
+		font-size: 29px;
+		padding-left: 1%;
+	}
+	.wrapper-inner-uniquegreen-regiao .wrap-uniquegreen-projeto-content {
+		background-position: 0 0;
+		height: 451px;
+		@media (max-width: 991px){
+			height:auto;
+		}
+	}
+	.wrapper-inner-uniquegreen-regiao .wrap-apresentacao-info-titulo.reg-titulo {
+		padding: 80px 0 0 37%;
+	}
+	.wrap-mobilidade-img {
+		text-align: right;
+		padding-right: 4%;
+	}
+	.wrap-mobilidade-info .wrap-apresentacao-info-titulo.reg-titulo {
+		padding: 0;
+	}
+	.wrap-mobilidade-info-img {
+		text-align: left;
+	}
+	.mobilidade-img {
+		margin-top: 55px;
+	}
+	.wrap-educacao-info {
+		margin-top: 80px;
+	}
+	.wrap-educacao-img {
+		margin-top: 80px;
+	}
+	.wrapper-inner-uniquegreen-regiao .educacao-info .wrap-apresentacao-info-titulo.reg-titulo {
+		padding: 20px 0 0 37%;
+	}
+	.wrap-content-sec1-txt .apresentacao-info-titulo {
+		margin-bottom: 30px;
+		margin-top: 24px !important;
+		color: #5d6276;
+	}
+	.sec1-img {
+		margin-bottom:100px;
+	}
+	.sec1-img img {
+		width: 100%;
+		max-width: 949px;
+	}
+	.wrap-content-sec2-txt .apresentacao-info-titulo {
+		margin-bottom: 30px;
+		color: #5d6276;
+	}
+	.sec2-txt {
+		margin-bottom: 48px;
+	}
+	.sec2-img img {
+		width: 100%;
+		max-width: 711px;
+	}
+	.wrap-content-sec2-txt img {
+		max-width: 381px;
+		width: 100%;
+	}
+	.wrap-content-sec3-txt .apresentacao-info-titulo {
+		margin-bottom: 30px;
+		margin-top: 0 !important;
+		color: #5d6276;
+	}
+	.sec3-txt {
+		margin-bottom: 190px;
+	}
+	.sec3-img {
+		text-align: right;
+	}
+	.wrap-content-sec3-txt .apresentacao-info-desc {
+		width: 320px;
+		padding-left: 60px !important;
+		@media (max-width: 767px){
+			width: 100%;
+			padding-left: 0 !important;
+		}
+	}
+	.sec3-img img {
+		width: 100%;
+		max-width: 327px;
+	}
+	.wrap-content-sec3-txt img {
+		max-width: 435px;
+		width: 100%;
+	}
+	@media (max-width: 1200px){
+		.wrap-apresentacao-info-titulo {
+			padding: 0;
+		}
+		.compras-servicos-info-img {
+			margin-right: 0;
+			width: 100%;
+		}
+		.wrapper-inner-uniquegreen-regiao {
+			padding: 80px 2% 120px 2%;
+			@media (max-width: 991px){
+				padding: 0 2% 10px 2%;
+			}
+		}
+		.wrapper-inner-uniquegreen-regiao .wrap-apresentacao-info-titulo.reg-titulo {
+			padding: 80px 0 0 7%;
+		}
+	}
+	@media (max-width: 991px){
+		.wrap-compras-servicos-info-img {
+			text-align: center;
+		}
+		.compras-servicos-info-img {
+			margin: 0 0 30px;
+			width: 80%;
+		}
+		.compras-servicos-imgs-maior {
+			width: 80%;
+		}
+		.wrap-compras-servicos-imgs {
+			text-align: center;
+		}
+		.compras-servicos-imgs-menor {
+			display: none;
+		}
+		.mobilidade-info .regiao-uniquegreen-content-title {
+			margin-top: 20px;
+		}
+		.wrapper-inner-uniquegreen-regiao .mobilidade-info .wrap-inner-content-projeto {
+			padding: 60px 10px 32px 100px;
+		}
+		.wrapper-inner-uniquegreen-regiao .wrap-apresentacao-info-titulo.reg-titulo {
+			padding: 0;
+		}
+		.wrapper-inner-uniquegreen-regiao .educacao-info .wrap-apresentacao-info-titulo.reg-titulo {
+			padding: 20px 0 0 3%;
+		}
+		.wrapper-inner-uniquegreen-regiao .educacao-info .wrap-inner-content-projeto {
+			padding: 40px 10px 22px 100px;
+		}
+		.wrap-educacao-img {
+			margin-top: 0;
+		}
+		.compras-servicos-info-img {
+			padding-right: 0;
+		}
+		.sec2-img, .sec3-img, .sec1-img {
+			text-align: center;
+		}
+	}
+	@media (max-width: 767px){
+		.wrapper-inner-uniquegreen-regiao {
+			padding: 40px 0;
+		}
+		.regiao-uniquegreen-content-title {
+			font-size: 22px;
+			padding-left: 3%;
+		}
+		.wrapper-inner-uniquegreen-regiao .wrap-inner-content-projeto {
+			padding: 60px 10px 40px 10%;
+		}
+		.wrap-mobilidade-img {
+			text-align: center;
+			padding-right: 0;
+		}
+		.wrapper-inner-uniquegreen-regiao .mobilidade-info .wrap-inner-content-projeto {
+			padding: 20px 10px 40px 10%;
+		}
+		.wrap-mobilidade-info-img {
+			text-align: center;
+		}
+		.wrap-content-sec3-txt {
+			text-align: center;
+			margin-top: 50px;
+		}
+		.wrap-content-sec2-txt {
+			text-align: center;
+		}
+		.wrapper-imovel.uniquegreen .sec3-txt {
+			margin-bottom: 50px;
+		}
+	}
+
+
+
+
+
+	/*PROJETO*/
+	.wrapper-inner-projeto-design{
+		max-width: 2300px;
+		margin:0 auto;
+		padding: 50px 0;
+	}
+	.wrapper-inner-projeto-design-bloco2{
+		max-width: 1600px;
+		margin:0 auto;
+	}
+	.projeto-design-topo-img {
+		width: 100%;
+	}
+	.wrapper-geral-projeto {
+		background-color: #fff;
+	}
+	.wrapper-geral-projeto .card.card-body {
+		color: #5d6276;
+		background-color: #e8ebf4;
+	}
+	.wrapper-geral-projeto-diferenciais {
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/ez-uniquegreen/projeto/bg-ficha-tecnica.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #fff;
+	}
+	.projeto-design-topo-info .apresentacao-info-desc {
+		max-width: 550px;
+	}
+	.projeto-design-bloco-2-info-txt {
+		margin-top: 70px;
+		padding: 0;
+		text-align: center;
+	}
+	.projeto-design-bloco-2-info-txt img {
+		max-width: 537px;
+	}
+	.wrap-projeto-design-bloco-2-img {
+		text-align: center;
+	}
+	.projeto-design-txt {
+		width: 220px;
+		padding: 2%;
+		color: #818285;
+	}
+	.unstudio-txt-legal {
+		font-size: 12px;
+	}
+	.projeto-design-bloco-2-img {
+		width: 100%;
+	}
+	.wrap-cta-design {
+		padding: 0 0 0 33%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.wrap-cta-design .btn-cta-uniquegreen {
+		width: 211px;
+	}
+	.wrapper-inner-projeto-diferenciais {
+		max-width: 1240px;
+		margin: 0 auto;
+	}
+	.apresentacao-info-titulo {
+		margin-top: 110px;
+	}
+	.container-projeto-diferenciais .apresentacao-info-chamada {
+		margin: 30px 0 66px;
+		padding: 0 40% 0 0;
+	}
+	.dif-txt-legal p {
+		font-size: 12px;
+		color: #828282;
+		padding: 70px 0 90px;
+	}
+	.desc-dif {
+		color: #828282;
+		letter-spacing: 1.1px;
+		font-weight: 100;
+		padding: 0 0 60px;
+	}
+	.titulo-dif {
+		margin-bottom: 20px;
+		font-weight: 600;
+		font-size: 24px;
+	}
+	.container-projeto-selo {
+		margin-top: 67px;
+	}
+	.wrapper-inner-projeto-paisagismo{
+		max-width: 1924px;
+		margin: 0 auto;
+	}
+	.container-projeto-paisagismo {
+		padding: 200px 0 170px 17%;
+	}
+	.projeto-paisagismo-img-topo {
+		margin-bottom: 90px;
+	}
+	.wrapper-projeto-paisagismo-info {
+		padding: 0 38% 0 10%;
+	}
+	@media (max-width: 1300px){
+		.projeto-design-bloco-2-info-txt {
+			margin-top: 40px;
+			padding: 0 0 0 3%;
+		}
+		.projeto-design-topo-info .apresentacao-info-desc {
+			padding: 30px 10px 46px 100px;
+		}
+		.container-projeto-paisagismo {
+			padding: 130px 0 0 0;
+		}
+		.wrapper-projeto-paisagismo-info {
+			padding: 0 22% 0 7%;
+		}
+	}
+	@media (max-width: 991px){
+		.projeto-design-topo-info {
+			padding: 20px 4%;
+		}
+		.projeto-design-txt {
+			width: 40%;
+		}
+		.wrapper-imovel.uniquegreen .projeto-design-bloco-2-info-txt {
+			padding: 0 0 0 13%;
+			margin-bottom: 30px;
+		}
+		.container-projeto-diferenciais {
+			padding: 0 3% 0 !important;
+		}
+		.container-projeto-diferenciais .apresentacao-info-chamada {
+			margin: 30px 0 66px;
+			padding: 0;
+		}
+		.container-projeto-selo {
+			padding: 0 3% 0 !important;
+		}
+		.wrap-projeto-paisagismo-img {
+			text-align: center;
+		}
+	}
+	@media (max-width: 767px){
+		.wrap-projeto-design-bloco-2-info .card.card-body {
+			font-size: 11px;
+		}
+		.projeto-design-bloco-2-info-txt img {
+			display: none;
+		}
+		.projeto-design-txt {
+			width: 100%;
+		}
+		.wrapper-imovel.uniquegreen .wrap-cta-design {
+			padding: 0;
+		}
+		.desc-dif {
+			font-size: 12px;
+		}
+		.uniquegreen-projeto-item-dif-icon {
+			text-align: center;
+		}
+		.titulo-dif {
+			font-size: 20px;
+			text-align: center;
+		}
+		.selo-img {
+			text-align: center;
+		}
+		.dif-txt-legal p {
+			font-size: 10px;
+			padding: 0;
+		}
+		.apresentacao-info-titulo {
+			margin-top: 40px;
+		}
+		.projeto-paisagismo-img-topo {
+			margin-bottom: 40px;
+		}
+		.container-projeto-paisagismo {
+			padding: 40px 0 0 0;
+		}
+		.wrapper-imovel.uniquegreen .wrapper-inner-projeto-design {
+			padding: 20px 0;
+		}
+	}
+
+	/*SERVIÇOS*/
+	.wrapper-inner-servicos{
+		max-width: 1930px;
+		margin:0 auto;
+		padding: 40px 0;
+	}
+	.wrapper-zservices-info .apresentacao-info-desc {
+		font-size: 15px;
+		padding: 20px 10px 80px 60px;
+	}
+	.wrapper-geral-servicos {
+		background-color: #fff;
+	}
+	.z-services-imgs-topo2 {
+		padding-top: 143px;
+	}
+	.zservices-img1 {
+		margin-top: 0;
+		width: 100%;
+	}
+	.zservices-img2 {
+		padding-left: 3%;
+		margin-top: 50px;
+		width: 100%;
+		max-width: 1018px;
+	}
+	.wrapper-geral-servicos-list{
+		background-color: #fff;
+		padding: 130px 0;
+		background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/ez-uniquegreen/servicos/bg-servicos.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	.wrapper-inner-servicos-list{
+		max-width: 1320px;
+		margin:0 auto;
+	}
+	.wrapper-inner-txt-legal-servicos{
+		max-width: 840px;
+		margin:0 auto;	
+	}
+	.container-servicos-list {
+		color: #818285;
+		line-height: 1.8;
+		font-size: 17px;
+	}
+	.patrimonial {
+		max-width: 320px;
+		padding: 30px 0 0 22%;
+	}
+	.wrapper-inner-txt-legal-servicos {
+		max-width: 840px;
+		margin: 0 auto;
+		color: #818285;
+		padding: 36px 0;
+		font-size: 10px;
+	}
+	.txt-legal-servicos {
+		margin: 0;
+	}
+	@media (max-width: 991px){
+		.wrapper-inner-servicos {
+			padding: 0 3% 42px;
+		}
+		.apresentacao-info-desc {
+			padding: 0 10px 56px 0;
+		}
+		.z-services-imgs {
+			text-align: center;
+		}
+		.zservices-img-topo2 {
+			display: none;
+		}
+		.z-services-imgs-topo1 {
+			text-align: center;
+		}
+		.z-services-imgs-topo2 {
+			padding-top: 53px;
+		}
+		.zservices-img1 {
+			margin-top: 40px;
+			margin-bottom: 60px;
+			max-width: 417px;
+		}
+		.zservices-img2 {
+			padding-left: 0;
+			width: 100%;
+			margin-top: 0;
+		}
+		.wrap-logo-zservices {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.patrimonial {
+			max-width: 100%;
+			padding: 30px 0 0 0;
+		}
+		.wrapper-geral-servicos-list {
+			padding: 60px 0;
+		}
+	}
+	@media (max-width: 767px){
+		.txt-legal-servicos {
+			padding: 0 4%;
+		}
+		.list-zservices, .patrimonial {
+			font-size: 13px;
+		}
+	}
+
+
+
+	/*artdesign*/
+	.wrapper-geral-artdesign{
+		background-color:#fff;
+		padding:104px 0;
+		@media (max-width: 991px){
+			padding:45px 0;
+		}
+	}
+	.wrapper-inner-artdesign-art{
+		max-width: 1620px;
+		margin:0 auto;
+	}
+	.wrapper-geral-paisagistico-interiores{
+		background-color:#dfe6ea;
+		padding: 135px 0 155px;
+	}
+	.wrapper-inner-artdesign-paisagistico-interiores{
+		max-width: 1300px;
+		margin:0 auto;
+	}
+	.citacao-box-art {
+		background-color: #dab180;
+		color: #fff;
+	}
+	.citacao-art {
+		padding: 0 5% 0 5%;
+		margin: 0;
+		width: 66%;
+		@media (max-width: 1200px){
+			font-size: 12px;
+		}
+		@media (max-width: 991px){
+			font-size: 16px;
+		}
+	}
+	.citacao-box-art {
+		background-color: #5d6276;
+		color: #fff;
+		margin-top: 180px;
+	}
+	.wrap-art-img img {
+		width: 100%;
+	}
+	.item-interiores .apresentacao-info-desc {
+		padding: 30px 47% 46px 0;
+		font-size: 15px;
+	}
+	.wrap-logo-interiores img {
+		width: 100%;
+		max-width: 320px;
+	}
+	.imagem-interiores{
+		max-width:303px;
+	}
+	@media (max-width: 991px){
+		.art-logo-uns {
+			width: auto;
+		}
+		.wrap-art-logo-uns {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.citacao-box-art {
+			margin-top: 0;
+		}
+		.wrap-art-img {
+			margin: 40px 0 0;
+		}
+		.item-interiores {
+			padding: 0 20% 90px;
+		}
+		.item-interiores .apresentacao-info-titulo {
+			margin-top: 10px;
+		}
+	}
+	@media (max-width: 767px){
+		.citacao-box-art img {
+			display: none;
+		}
+		.citacao-art {
+			padding: 30px 11%;
+			margin: 0;
+			width: 100%;
+		}
+		.imagem-interiores{
+			width:100%;
+		}
+		.item-interiores {
+			padding: 0 5% 90px;
+		}
+		.item-interiores .apresentacao-info-desc {
+			padding: 30px 10px 46px 0;
+		}
+		.wrap-logo-interiores{
+			text-align: center;
+		}
+		.wrapper-geral-paisagistico-interiores {
+			padding: 45px 0 0;
+		}
+	}
+
+	.menu-uniquegreen-dropdown-item.dropdown-item {
+		border-bottom: 1px solid #fff;
+	}
+	.dropdown-menu.dropdown-menu-uniquegreen.show {
+		padding: 9px;
+	}
+	.menu-uniquegreen-dropdown-item.dropdown-item:last-child {
+		border-bottom: 0;
+	}
+
+
+
+	/*INVESTIMENTO*/
+	.wrapper-geral-uniquegreen-investimento-oportunidades {
+		background-color: #fff;
+	}
+	.wrapper-inner-uniquegreen-investimento-oportunidades {
+		max-width: 1300px;
+		margin: 0 auto;
+		padding: 140px 0 110px;
+	}
+	.container-investimento-oportunidades .apresentacao-info-desc {
+		padding: 40px 14% 66px 70px;
+	}
+	.wrap-oportunidades-img {
+		text-align: center;
+	}
+	.wrap-oportunidades-diferenciais h3 {
+		color: #19262a;
+		font-weight: 300;
+		letter-spacing: 1.3px;
+		font-size: 27px;
+		margin-top: 80px;
+	}
+	.wrap-oportunidades-diferenciais {
+		color: #818285;
+	}
+	.wrapper-geral-uniquegreen-investimento-pib{
+		padding: 110px 0;
+		background-color: #a5abb0;
+	}
+	.wrapper-inner-uniquegreen-investimento-pib{
+		max-width: 1300px;
+		margin: 0 auto;
+	}
+	.wrap-oportunidades-diferenciais .pib h2 {
+		color: #fff;
+		font-weight: 300;
+		letter-spacing: 1.3px;
+		font-size: 27px;
+		margin-top: 0;
+	}
+	.wrap-img-pib {
+		margin-top: 80px;
+		text-align: center;
+	}
+	.wrap-oportunidades-diferenciais .pib {
+		color: #fff;
+	}
+	@media (max-width: 1200px){
+		.oportunidades-img {
+			width: 100%;
+			max-width: 500px;
+		}
+	}
+	@media (max-width: 991px){
+		.wrapper-inner-uniquegreen-investimento-oportunidades {
+			padding: 0 0 110px;
+		}
+	}
+	@media (max-width: 767px){
+		.oportunidades-img {
+			width: 90%;
+		}
+		.wrap-oportunidades-diferenciais h3 {
+			font-size: 20px;
+			margin-top: 50px;
+		}
+		.oportunidades-dif {
+			font-size: 12px;
+		}
+		.wrapper-geral-uniquegreen-investimento-pib{
+			padding: 50px 0;
+		}
+		.wrap-img-pib img {
+			width: 100%;
+		}
+	}
+
+	.video-uniquegreen-item {
+		margin: 40px 0;
+	}
+
+	&.videos{
+		.uniquegreen-banner{
+			margin-top: 152px;
+			position: relative;
+			.uniquegreen-banner-desk{
+				display: block;
+			}
+			.uniquegreen-banner-mobile{
+				display: none;
+			}
+			.box-titulo{
+			top: 0;
+			left: 0;
+			position: absolute;
+				h1{
+					color:#fff;
+					font-size: 32px;
+					font-weight: 300;
+				}
+			}
+			@media (max-width: 991px){
+				margin-top: 111px;
+				.uniquegreen-banner-desk{
+					display: none;
+				}
+				.uniquegreen-banner-mobile{
+					display: block;
+				}
+			}
+			@media (max-width: 767px){
+				margin-top: 37px;
+			}
+		}
+	}
+
+	&.regiao{
+		.uniquegreen-banner{
+			margin-top: 152px;
+			position: relative;
+			.uniquegreen-banner-desk{
+				display: block;
+			}
+			.uniquegreen-banner-mobile{
+				display: none;
+			}
+			.box-titulo{
+			top: 0;
+			left:0;
+			position: absolute;
+				h1, .subtitulo{
+					color:#fff;
+					font-size: 32px;
+					font-weight: 300;
+					text-align:center;
+				}
+			}
+			@media (max-width: 991px){
+				margin-top: 111px;
+				.uniquegreen-banner-desk{
+					display: none;
+				}
+				.uniquegreen-banner-mobile{
+					display: block;
+				}
+			}
+			@media (max-width: 767px){
+				margin-top: 37px;
+			}
+		}
+		.wrapper-apresentacao{
+			background-color:#f0f0f0;
+			padding: 55px 0 35px;
+			.wrap-apresentacao{
+				text-align:center;
+				.box-info {
+					color: #fff;
+					background-color: #192119;
+					padding: 45px;
+					margin-bottom: 30px;
+					img {
+						margin-bottom: 15px;
+					}
+					.titulo {
+						font-size: 32px;
+						font-weight: 300;
+						@media (max-width: 767px){
+							font-size: 22px;
+						}
+					}
+					.desc {
+						font-size: 22px;
+						font-weight: 300;
+						@media (max-width: 767px){
+							font-size: 15px;
+						}
+					}
+				}
+				.box-info2 {
+					color: #fff;
+					background-color: #a27155;
+					padding: 45px;
+					margin-bottom: 30px;
+					margin-top: 30px;
+					.titulo {
+						font-size: 32px;
+						@media (max-width: 767px){
+							font-size: 22px;
+						}
+					}
+				}
+				.regiao-apresentacao-img {
+					width: 100%;
+					max-width: 395px;
+					margin-bottom: 20px;
+				}
+				.regiao-localidades-img{
+					display:block;
+					width:100%;
+					@media (max-width: 991px){
+						display:none;
+					}
+				}
+				.regiao-localidades-img-mobile{
+					display:none;
+					width:100%;
+					@media (max-width: 991px){
+						display:block;
+					}
+				}
+			}
+		}
+	}
+	.btn-regiao{
+		margin-top:45px;
+		@media (max-width: 991px){
+			margin-top:0;
+			margin-bottom:25px;
+		}
+	}
+
+
+
+	.wrapper-banner {
+		margin-top: 152px;
+		@media (max-width: 991px){
+			margin-top: 111px;
+		}
+		@media (max-width: 767px){
+			margin-top: 37px;
+		}
+		.carousel{
+			.carousel-inner{
+				.carousel-item{
+					.carousel-caption{
+						.carousel-caption-center {
+						    margin-top: 0;
+						    .banner-slide-title, .banner-slide-subtitle {
+							    font-size: 32px;
+							    font-weight: 300;
+							    line-height: initial;
+							    @media (max-width: 767px){
+							    	font-size: 22px;
+							    }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.wrapper-imovel-caracteristicas {
+		background-color: #fff;
+		.projeto-titulo.text-center {
+			font-size: 32px;
+			margin-top: 30px;
+		}
+	}
+	.caracteristicas-description-img {
+		text-align: right;
+		@media (max-width: 991px){
+			text-align: center;
+		}
+	}
+	.logo-box{
+		background-color:#192119;
+		color: #fff;
+		padding: 30px 0;
+		.imovel-box-de-produto {
+			font-size: 37px;
+			padding: 16px 0;
+			@media (max-width: 991px){
+				text-align: center;
+			}
+			@media (max-width: 767px){
+				font-size: 20px;
+			}
+		}
+	}
+
+	.wrapper-ficha-tecnica{
+		background-color: #fff;
+		.ficha-tecnica {
+			color: #192119;
+			.ficha-tecnica-accordion {
+			    color: #192119;
+			    .ficha-tecnica-box{
+			    	.wrapper-header-ficha{
+			    		.ficha-tecnica-btn{
+			    			.ficha-tecnica-btn-open {
+							    height: 21px;
+							    width: 44px;
+							}
+						}
+					}
+					.ficha-tecnica-titulo {
+						@media (max-width: 575px){
+					    	width: 200px;
+					    }
+					}
+				}
+			}
+			.ficha-tecnica-dados {
+			    border-top: 1px solid #192119;
+			}
+			.seta-unique{
+				background-image: url(https://www.eztec.com.br/wp-content/uploads/imoveis/unique-green/assets/seta-down.png);
+				width: 44px;
+				height: 21px;
+			}
+		}
+	}
+
+
+	.wrapper-diferenciais {
+		background-color: #fff;
+		padding: 40px 0;
+		text-align:center;
+		.dif-conteudo {
+			padding: 50px 0;
+			font-size: 20px;
+			@media (max-width: 767px){
+				font-size: 15px;
+			}
+		}
+		.dif-texto-legal {
+			font-size: 14px;
+			font-weight: bold;
+			text-align: left;
+			margin-bottom: 80px;
+		}
+		.dif-item-titulo {
+			font-size: 21px;
+			color: #775740;
+			font-weight: bold;
+		}
+		.dif-item-img {
+			margin-bottom: 40px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+}

@@ -1,0 +1,47 @@
+.wrapper-a-eztec {
+    .wrapper-a-eztec-section {
+        padding: 100px 0;
+        padding: 6.25rem 0;
+        .section-content-a-eztec {
+            padding-bottom: 30px;
+            padding-bottom: 1.875rem;
+            .section-content-pre-title {
+                font-size: 18px;
+                font-size: 1.125rem;
+                font-weight: 600;
+                margin-bottom: 20px;
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+# Blocos
+--------------------------------------------------------------*/
+@import "historia";
+@import "missao-visao";
+@import "diferenciais";
+@import "premios";
+@import "qualidade";
+@import "videos";
+@import "contato";
+
+.wrapper-a-eztec-compliance {
+    padding-bottom: 50px;
+    .a-eztec-compliance {
+        .a-eztec-compliance-content {
+            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
+            .a-eztec-compliance-content-desc {
+                color: #fff;
+                font-size: 14px;
+                font-size: 0.875rem;
+            }
+        }
+    }
+    .btn-compliance {
+        width: 100%;
+        margin: 6px 0;
+    }
+}

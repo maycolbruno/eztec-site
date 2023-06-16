@@ -1,0 +1,29 @@
+.wrapper-diferenciais {
+    background-color: #1c2939;
+    .a-eztec-diferenciais {
+        .a-eztec-diferenciais-item {
+            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
+            .a-eztec-diferenciais-item-title {
+                color: #fff;
+                font-size: 18px;
+                font-size: 1.125rem;
+                font-weight: 700;
+                margin: 20px 0;
+                margin: 1.25rem 0;
+            }
+            .a-eztec-diferenciais-item-desc {
+                color: #fff;
+                font-size: 14px;
+                font-size: 0.875rem;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .a-eztec-diferenciais {
+            .a-eztec-diferenciais-item {
+                text-align: center;
+            }
+        }
+    }
+}
